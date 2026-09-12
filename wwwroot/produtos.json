@@ -2,13 +2,13 @@
     {
         "id": 1,
         "nome": "Produto Alfa",
-        "preço": 24.99,
+        "preco": 24.99,
         "imagem": "imagens/produto1.jpg"
     },
     {
         "id": 2,
         "nome": "Produto Beta",
-        "preço": 49.99,
+        "preco": 49.99,
         "imagem": "imagens/produto2.jpg"
     }
 ]
