@@ -1,0 +1,33 @@
+name: Deploy para o GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar o .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.400'
+
+      - name: Compilar o projeto Blazor
+        run: dotnet publish -c Release -o release
+
+      # Truque necessário para o GitHub Pages não ignorar as pastas do Blazor (começadas por _)
+      - name: Adicionar ficheiro .nojekyll
+        run: touch release/wwwroot/.nojekyll
+
+      - name: Alterar a base do URL (Ajuste para o nome do nosso repositório)
+        run: sed-i 's'|<base href="/" />|<base href="/catalogo-pwa/" />|g' release/wwwroot/index.html
+
+      - name: Deploy para o GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: release/wwwroot
+          branch: gh-pages
