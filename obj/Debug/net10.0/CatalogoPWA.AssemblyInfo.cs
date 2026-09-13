@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogoPWA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65fc0bc542efeed5086dd695f331685c436f3450")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1be34ee624baadcc051eaab0df9961139510b23")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogoPWA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogoPWA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
