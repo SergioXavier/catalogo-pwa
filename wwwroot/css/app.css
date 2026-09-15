@@ -113,3 +113,10 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+.produto-imagem {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    display: block;
+}

@@ -1,10 +1,20 @@
 ﻿@page "/"
 @inject HttpClient Http
 
-<PageTitle>O Nosso Catálogo</PageTitle>
+<PageTitle>Kikas e Bonitas - Catálogo</PageTitle>
 <div class="container text-center my-4">
-<h1 class="display-4 fw-bold text-primary">Catálogo Semanal</h1>
-<p class="text-muted">Consulte os nossos produtos mesmo sem internet!</p>
+    <img src="imagens/Logo.jpeg"
+         alt="Logo"
+         class="img-fluid mb-3"
+         style="max-height: 120px;" />
+
+    <h1 class="display-5 fw-bold" style="color: #D4AF37;">
+        Catálogo Semanal
+    </h1>
+
+    <p class="text-muted">
+        Consulte os nossos produtos mesmo sem internet!
+    </p>
 </div>
 
 @if (produtos == null)
@@ -15,14 +25,75 @@
 }
 else
 {
+    <div class="container mb-4">
+        <div class="card shadow-sm p-3">
+            <h5 class="fw-bold mb-3">Pesquisar produtos</h5>
+
+            <div class="row g-2">
+
+            <!-- Nome -->
+            <div class="col-12 col-md-4">
+                <label class="form-label">Nome</label>
+                <input type="text"
+                       class="form-control"
+                       placeholder="Pesquisar por nome..."
+                       @bind="filtroNome"
+                       @bind:event="oninput" />
+            </div>
+
+            <!-- Categoria -->
+            <div class="col-12 col-md-3">
+                <label class="form-label">Categoria</label>
+                <select class="form-select" @bind="filtroCategoria">
+                    <option value="">Todas as categorias</option>
+
+                    @foreach (var categoria in Categorias)
+                    {
+                        <option value="@categoria">@categoria</option>
+                    }
+                </select>
+            </div>
+
+            <!-- Preço mínimo -->
+            <div class="col-6 col-md-2">
+                <label class="form-label">Preço mín.</label>
+                <input type="number"
+                       class="form-control"
+                       placeholder="0,00"
+                       step="0.01"
+                       @bind="precoMinimo" />
+            </div>
+
+            <!-- Preço máximo -->
+            <div class="col-6 col-md-2">
+                <label class="form-label">Preço máx.</label>
+                <input type="number"
+                       class="form-control"
+                       placeholder="999,99"
+                       step="0.01"
+                       @bind="precoMaximo" />
+            </div>
+
+            <!-- Limpar -->
+            <div class="col-12 col-md-1 d-flex align-items-end">
+                <button class="btn btn-outline-secondary w-100"
+                        @onclick="LimparFiltros">
+                    Limpar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
     <div class="row row-cols-2 row-cols-md-4 g-3 p-2">
-        @foreach (var prod in produtos)
+        @foreach (var prod in ProdutosFiltrados)
         {
             <div class="col">
                 <div class="card h-100 shadow-sm">
-                    <img src="@prod.Imagem" class="card-img-top p-2" alt="@prod.Nome" style="object-fit:contain; height:150px;" />
+                    <img src="@prod.Imagem" class="card-img-top produto-imagem" alt="@prod.Nome" />
                     <div class="card-body d-flex flex-column justify-content-between p-2">
                         <h6 class="card-title text-dark m-0 text-truncate">@prod.Nome</h6>
+                        <p class="card-text fw-bold text m-0 mt-1">Categoria: @prod.Categoria</p>
                         <p class="card-text fw-bold text-success m-0 mt-1">@prod.Preco.ToString("C")</p>
                     </div>
                 </div>
@@ -32,6 +103,51 @@ else
 }
 
 @code {
+    private string filtroNome = string.Empty;
+private string filtroCategoria = string.Empty;
+
+private decimal? precoMinimo;
+private decimal? precoMaximo;
+
+private IEnumerable<Produto> ProdutosFiltrados =>
+    produtos?
+        .Where(p =>
+            (string.IsNullOrWhiteSpace(filtroNome) ||
+             p.Nome.Contains(filtroNome, StringComparison.OrdinalIgnoreCase))
+
+            &&
+
+            (string.IsNullOrWhiteSpace(filtroCategoria) ||
+             p.Categoria.Equals(filtroCategoria, StringComparison.OrdinalIgnoreCase))
+
+            &&
+
+            (!precoMinimo.HasValue ||
+             p.Preco >= precoMinimo.Value)
+
+            &&
+
+            (!precoMaximo.HasValue ||
+             p.Preco <= precoMaximo.Value)
+        )
+        ?? Enumerable.Empty<Produto>();
+
+private IEnumerable<string> Categorias =>
+    produtos?
+        .Select(p => p.Categoria)
+        .Where(c => !string.IsNullOrWhiteSpace(c))
+        .Distinct()
+        .OrderBy(c => c)
+        ?? Enumerable.Empty<string>();
+
+private void LimparFiltros()
+{
+    filtroNome = string.Empty;
+    filtroCategoria = string.Empty;
+    precoMinimo = null;
+    precoMaximo = null;
+}
+
     private List<Produto>? produtos;
     protected override async Task OnInitializedAsync()
     {
@@ -43,6 +159,7 @@ else
     {
         public int Id {get; set;}
         public string Nome {get; set;}=string.Empty;
+        public string Categoria {get; set;}=string.Empty;
         public decimal Preco {get; set;}
         public string Imagem {get; set;}=string.Empty;
     }
