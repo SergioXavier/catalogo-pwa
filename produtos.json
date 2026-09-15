@@ -1,14 +1,407 @@
 [
     {
         "id": 1,
-        "nome": "Produto Alfa",
-        "preco": 24.99,
-        "imagem": "imagens/produto1.jpg"
+        "nome": "Acido Azelaico Gel",
+        "imagem": "imagens/Acido_Azelaico_Gel.jpeg"
     },
     {
         "id": 2,
-        "nome": "Produto Beta",
-        "preco": 49.99,
-        "imagem": "imagens/produto2.jpg"
+        "nome": "Aloe Vera Gel",
+        "imagem": "imagens/Aloe_Vera_Gel.jpeg"
+    },
+    {
+        "id": 3,
+        "nome": "Anti Fungos Solucao",
+        "imagem": "imagens/Anti_Fungos_Solucao.jpeg"
+    },
+    {
+        "id": 4,
+        "nome": "Antirrugas Creme Colageneo",
+        "imagem": "imagens/Antirrugas_Creme_Colageneo.jpeg"
+    },
+    {
+        "id": 5,
+        "nome": "Aplicador Lalacherry",
+        "imagem": "imagens/Aplicador_Lalacherry.jpeg"
+    },
+    {
+        "id": 6,
+        "nome": "Arnica Gel",
+        "imagem": "imagens/Arnica_Gel.jpeg"
+    },
+    {
+        "id": 7,
+        "nome": "Balsamo Cavalo Frio",
+        "imagem": "imagens/Balsamo_Cavalo_Frio.jpeg"
+    },
+    {
+        "id": 8,
+        "nome": "Balsamo Labial Volume",
+        "imagem": "imagens/Balsamo_Labial_Volume.jpeg"
+    },
+    {
+        "id": 9,
+        "nome": "Biotina Gomas",
+        "imagem": "imagens/Biotina_Gomas.jpeg"
+    },
+    {
+        "id": 10,
+        "nome": "Body Set Adorable",
+        "imagem": "imagens/Body_Set_Adorable.jpeg"
+    },
+    {
+        "id": 11,
+        "nome": "Body Set Blossom",
+        "imagem": "imagens/Body_Set_Blossom.jpeg"
+    },
+    {
+        "id": 12,
+        "nome": "Body Set Desire",
+        "imagem": "imagens/Body_Set_Desire.jpeg"
+    },
+    {
+        "id": 13,
+        "nome": "Body Set Elegance",
+        "imagem": "imagens/Body_Set_Elegance.jpeg"
+    },
+    {
+        "id": 14,
+        "nome": "Body Set Mystery",
+        "imagem": "imagens/Body_Set_Mystery.jpeg"
+    },
+    {
+        "id": 15,
+        "nome": "Body Set Seductive",
+        "imagem": "imagens/Body_Set_Seductive.jpeg"
+    },
+    {
+        "id": 16,
+        "nome": "Branqueador Dental Tiras",
+        "imagem": "imagens/Branqueador_dental_tiras.jpeg"
+    },
+    {
+        "id": 17,
+        "nome": "Calendula Gel",
+        "imagem": "imagens/Calendula_Gel.jpeg"
+    },
+    {
+        "id": 18,
+        "nome": "Centelha Asiatica Creme Premium",
+        "imagem": "imagens/Centelha_Asiatica_Creme_Premium.jpeg"
+    },
+    {
+        "id": 19,
+        "nome": "Colutorio Halito Fresco",
+        "imagem": "imagens/Colutorio_Halito_Fresco.jpeg"
+    },
+    {
+        "id": 20,
+        "nome": "Colutorio Halito Fresco2",
+        "imagem": "imagens/Colutorio_Halito_Fresco2.jpeg"
+    },
+    {
+        "id": 21,
+        "nome": "Creme Maos Frutos",
+        "imagem": "imagens/Creme_Maos_Frutos.jpeg"
+    },
+    {
+        "id": 22,
+        "nome": "Cuidado Hidratacao Firmeza Rosto",
+        "imagem": "imagens/Cuidado_Hidratacao_Firmeza_Rosto.jpeg"
+    },
+    {
+        "id": 23,
+        "nome": "Cute Lover Bloomimg",
+        "imagem": "imagens/Cute_Lover_Bloomimg.jpeg"
+    },
+    {
+        "id": 24,
+        "nome": "Cute Lover Kit Beleza",
+        "imagem": "imagens/Cute_Lover_Kit_Beleza.jpeg"
+    },
+    {
+        "id": 25,
+        "nome": "Cute Lover Marshmallow",
+        "imagem": "imagens/Cute_Lover_Marshmallow.jpeg"
+    },
+    {
+        "id": 26,
+        "nome": "Cute Lover Morango",
+        "imagem": "imagens/Cute_Lover_Morango.jpeg"
+    },
+    {
+        "id": 27,
+        "nome": "Gel Banho Argao Baunilha",
+        "imagem": "imagens/Gel_Banho_Argao_Baunilha.jpeg"
+    },
+    {
+        "id": 28,
+        "nome": "Gel Banho Coco",
+        "imagem": "imagens/Gel_Banho_Coco.jpeg"
+    },
+    {
+        "id": 29,
+        "nome": "Gel Banho Monoi",
+        "imagem": "imagens/Gel_Banho_Monoi.jpeg"
+    },
+    {
+        "id": 30,
+        "nome": "Gel Banho Talco",
+        "imagem": "imagens/Gel_Banho_Talco.jpeg"
+    },
+    {
+        "id": 31,
+        "nome": "Gel Limpeza Facial",
+        "imagem": "imagens/Gel_Limpeza_Facial.jpeg"
+    },
+    {
+        "id": 32,
+        "nome": "Insensos",
+        "imagem": "imagens/Insensos.jpeg"
+    },
+    {
+        "id": 33,
+        "nome": "Kailinya Creme Coreano",
+        "imagem": "imagens/Kailinya_creme_coreano.jpeg"
+    },
+    {
+        "id": 34,
+        "nome": "Kit Beija Flor",
+        "imagem": "imagens/Kit_Beija_Flor.jpeg"
+    },
+    {
+        "id": 35,
+        "nome": "Kit Compacto",
+        "imagem": "imagens/Kit_Compacto.jpeg"
+    },
+    {
+        "id": 36,
+        "nome": "Kit Rich Man",
+        "imagem": "imagens/Kit_Rich_Man.jpeg"
+    },
+    {
+        "id": 37,
+        "nome": "Kit Sol Janeiro",
+        "imagem": "imagens/Kit_Sol_Janeiro.jpeg"
+    },
+    {
+        "id": 38,
+        "nome": "Kit Viagem Brilho",
+        "imagem": "imagens/Kit_Viagem_Brilho.jpeg"
+    },
+    {
+        "id": 39,
+        "nome": "Kit Viagem Bum Bum",
+        "imagem": "imagens/Kit_Viagem_Bum_Bum.jpeg"
+    },
+    {
+        "id": 40,
+        "nome": "Linha Capilar Kids",
+        "imagem": "imagens/Linha_Capilar_Kids.jpeg"
+    },
+    {
+        "id": 41,
+        "nome": "Mascara Colageneo Facial",
+        "imagem": "imagens/Mascara_Colageneo_facial.jpeg"
+    },
+    {
+        "id": 42,
+        "nome": "Mascara Labial",
+        "imagem": "imagens/Mascara_Labial.jpeg"
+    },
+    {
+        "id": 43,
+        "nome": "Mascara Refrescante",
+        "imagem": "imagens/Mascara_Refrescante.jpeg"
+    },
+    {
+        "id": 44,
+        "nome": "Melatonina Gomas",
+        "imagem": "imagens/Melatonina_Gomas.jpeg"
+    },
+    {
+        "id": 45,
+        "nome": "Multivitaminas Gomas",
+        "imagem": "imagens/Multivitaminas_Gomas.jpeg"
+    },
+    {
+        "id": 46,
+        "nome": "Niacinamida Creme Premium",
+        "imagem": "imagens/Niacinamida_Creme_Premium.jpeg"
+    },
+    {
+        "id": 47,
+        "nome": "Niacinamida Gel",
+        "imagem": "imagens/Niacinamida_Gel.jpeg"
+    },
+    {
+        "id": 48,
+        "nome": "Oleo Labial",
+        "imagem": "imagens/Oleo_Labial.jpeg"
+    },
+    {
+        "id": 49,
+        "nome": "Paleta Sombras",
+        "imagem": "imagens/Paleta_sombras.jpeg"
+    },
+    {
+        "id": 50,
+        "nome": "Perfume Aswad",
+        "imagem": "imagens/Perfume_Aswad.jpeg"
+    },
+    {
+        "id": 51,
+        "nome": "Perfume Aswad2",
+        "imagem": "imagens/Perfume_Aswad2.jpeg"
+    },
+    {
+        "id": 52,
+        "nome": "Probioticos Gomas",
+        "imagem": "imagens/Probioticos_Gomas.jpeg"
+    },
+    {
+        "id": 53,
+        "nome": "Retinol Creme Premium",
+        "imagem": "imagens/Retinol_Creme_Premium.jpeg"
+    },
+    {
+        "id": 54,
+        "nome": "Retinol Shot",
+        "imagem": "imagens/Retinol_Shot.jpeg"
+    },
+    {
+        "id": 55,
+        "nome": "Sos Acne Creme",
+        "imagem": "imagens/SOS_Acne_creme.jpeg"
+    },
+    {
+        "id": 56,
+        "nome": "Serum Acido Hialuronico",
+        "imagem": "imagens/Serum_Acido_Hialuronico.jpeg"
+    },
+    {
+        "id": 57,
+        "nome": "Serum Antirrugas Peito",
+        "imagem": "imagens/Serum_Antirrugas_Peito.jpeg"
+    },
+    {
+        "id": 58,
+        "nome": "Serum Capilar",
+        "imagem": "imagens/Serum_Capilar.jpeg"
+    },
+    {
+        "id": 59,
+        "nome": "Serum Estrias Corpo",
+        "imagem": "imagens/Serum_Estrias_Corpo.jpeg"
+    },
+    {
+        "id": 60,
+        "nome": "Serum Firmeza",
+        "imagem": "imagens/Serum_Firmeza.jpeg"
+    },
+    {
+        "id": 61,
+        "nome": "Serum Niacinamida",
+        "imagem": "imagens/Serum_Niacinamida.jpeg"
+    },
+    {
+        "id": 62,
+        "nome": "Serum Pink Peptidos",
+        "imagem": "imagens/Serum_Pink_Peptidos.jpeg"
+    },
+    {
+        "id": 63,
+        "nome": "Serum Reafirmante Corpo",
+        "imagem": "imagens/Serum_Reafirmante_Corpo.jpeg"
+    },
+    {
+        "id": 64,
+        "nome": "Shampo Abacate",
+        "imagem": "imagens/Shampo_Abacate.jpeg"
+    },
+    {
+        "id": 65,
+        "nome": "Shampo Antiqueda",
+        "imagem": "imagens/Shampo_AntiQueda.jpeg"
+    },
+    {
+        "id": 66,
+        "nome": "Shampo Coco",
+        "imagem": "imagens/Shampo_Coco.jpeg"
+    },
+    {
+        "id": 67,
+        "nome": "Shampo Lisos",
+        "imagem": "imagens/Shampo_Lisos.jpeg"
+    },
+    {
+        "id": 68,
+        "nome": "Shampo Neutro",
+        "imagem": "imagens/Shampo_Neutro.jpeg"
+    },
+    {
+        "id": 69,
+        "nome": "Shampo Nutricao",
+        "imagem": "imagens/Shampo_Nutricao.jpeg"
+    },
+    {
+        "id": 70,
+        "nome": "Shampo Platino",
+        "imagem": "imagens/Shampo_Platino.jpeg"
+    },
+    {
+        "id": 71,
+        "nome": "Shampo Rapunzel",
+        "imagem": "imagens/Shampo_Rapunzel.jpeg"
+    },
+    {
+        "id": 72,
+        "nome": "Shampo Revitalizante",
+        "imagem": "imagens/Shampo_Revitalizante.jpeg"
+    },
+    {
+        "id": 73,
+        "nome": "Squishy Disney",
+        "imagem": "imagens/Squishy_Disney.jpeg"
+    },
+    {
+        "id": 74,
+        "nome": "Squishy Disney Bonecos",
+        "imagem": "imagens/Squishy_Disney_Bonecos.jpeg"
+    },
+    {
+        "id": 75,
+        "nome": "Squishy Fofos Bonecos",
+        "imagem": "imagens/Squishy_Fofos_Bonecos.jpeg"
+    },
+    {
+        "id": 76,
+        "nome": "Squishy Homem Aranha",
+        "imagem": "imagens/Squishy_Homem_Aranha.jpeg"
+    },
+    {
+        "id": 77,
+        "nome": "Squishy Premium",
+        "imagem": "imagens/Squishy_Premium.jpeg"
+    },
+    {
+        "id": 78,
+        "nome": "Toalhetes Humidos",
+        "imagem": "imagens/Toalhetes_Humidos.jpeg"
+    },
+    {
+        "id": 79,
+        "nome": "Toalhitas Wc",
+        "imagem": "imagens/Toalhitas_WC.jpeg"
+    },
+    {
+        "id": 80,
+        "nome": "Velas Aromaticas",
+        "imagem": "imagens/Velas_Aromaticas.jpeg"
+    },
+    {
+        "id": 81,
+        "nome": "Vitaminas Cabelo Pele Unhas Gomas",
+        "imagem": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
     }
 ]

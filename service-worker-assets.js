@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "KIEJi/2O",
+  "version": "rgvVKcxU",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-56Ty4ySkD1xJ92kpAA+bA+5n3UxYRWP8Qx33qqy5xTo=",
-      "url": "_framework/CatalogoPWA.zpwdusjz5u.wasm"
+      "hash": "sha256-Ej9KDWfHFgBVZrVAh0CT3O5UWW5Co0S+/2Zao7IbTVc=",
+      "url": "_framework/CatalogoPWA.ae9ahgc9kv.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -18,8 +18,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.rwhqrt84j9.wasm"
     },
     {
-      "hash": "sha256-LKUI3o+qGO0HtmpcVchXGuk6LUSmIwnr/3vr9+vM0KM=",
-      "url": "_framework/Microsoft.AspNetCore.Components.cwml6uovxj.wasm"
+      "hash": "sha256-owo2WKDXTyYFSOEWdxglRrrXEVrc+bFnOJe0AF/SrN4=",
+      "url": "_framework/Microsoft.AspNetCore.Components.bee3fcs7q0.wasm"
     },
     {
       "hash": "sha256-LRrW/S2jAmMqf71EuwOxgMbVdrDu7QppjlK8PjiYgAU=",
@@ -66,16 +66,16 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.tdeb81kcma.wasm"
     },
     {
+      "hash": "sha256-A1IvlrEAoILJAeQd/614k6RUZtVp2IMLYwYBrcx+Hhg=",
+      "url": "_framework/System.Collections.5ap4de3c30.wasm"
+    },
+    {
       "hash": "sha256-QVoXtTznSJ8oCzMh39ywVQJQ6+y/rntovE3lPEOPtLY=",
       "url": "_framework/System.Collections.Concurrent.lfxontdfyu.wasm"
     },
     {
       "hash": "sha256-/tuheLqN0tG7XK2wvFDm54t31NmkKFIvkDxqS83Usws=",
       "url": "_framework/System.Collections.Immutable.igro7rli9l.wasm"
-    },
-    {
-      "hash": "sha256-9KJIXwnkwNgIDog22/+Cs9+SVdQwmtaaewnOuWTybeA=",
-      "url": "_framework/System.Collections.wt8ddmzfj0.wasm"
     },
     {
       "hash": "sha256-gROd1mGPH8FaEgzh0nUJBEL8MD/doQc5GIW6YJYD3W4=",
@@ -94,8 +94,8 @@ self.assetsManifest = {
       "url": "_framework/System.IO.Pipelines.9azjszgsci.wasm"
     },
     {
-      "hash": "sha256-2Veqth2GqSW3ZSvEHfMfmeNJ7JmIXPU+6GfwWStg2ZY=",
-      "url": "_framework/System.Linq.b7qu4hafg6.wasm"
+      "hash": "sha256-95ZnPoZdrRe2JXjOIxoTs2QoNDiQwnBwFspTbZmlvOY=",
+      "url": "_framework/System.Linq.16bygj46y6.wasm"
     },
     {
       "hash": "sha256-jRWlBGLo4WDUY/hTyBkNADQkQxjWpUpcFA1lsKDYEZ4=",
@@ -114,20 +114,20 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Primitives.mphe71cz89.wasm"
     },
     {
-      "hash": "sha256-q9rJ8Vbr+0CJZVv5kbDGYFbRVFLmu4IPH1RimAhIhLU=",
-      "url": "_framework/System.Private.CoreLib.t6602124pm.wasm"
+      "hash": "sha256-vIH3WLuYM6fUKK3O00zeWtFnm8E+2K1H60wnN0VfZAk=",
+      "url": "_framework/System.Private.CoreLib.8nomkpkmfu.wasm"
     },
     {
       "hash": "sha256-Et+lDS8oY3bNDfUan0UyNuXc/OWGT2iz+lb/CYETBW8=",
       "url": "_framework/System.Private.Uri.usuglfxhpm.wasm"
     },
     {
-      "hash": "sha256-lf8bNUBMbJYeAqYxKK6pKywcrKELO2tVs32xlLoJd/M=",
-      "url": "_framework/System.Runtime.InteropServices.JavaScript.l4nao9l17b.wasm"
+      "hash": "sha256-S/lLHvltNXJeIZRfU40tuFYg0jImMO76Ai0lX5jcRDc=",
+      "url": "_framework/System.Runtime.75hagx97oi.wasm"
     },
     {
-      "hash": "sha256-ok0Wa7Nk1lp3mm+mr0DLLmosCFkAvwCvZeNvuc7KNyk=",
-      "url": "_framework/System.Runtime.q2c2whi6bn.wasm"
+      "hash": "sha256-lf8bNUBMbJYeAqYxKK6pKywcrKELO2tVs32xlLoJd/M=",
+      "url": "_framework/System.Runtime.InteropServices.JavaScript.l4nao9l17b.wasm"
     },
     {
       "hash": "sha256-9oHjLDAHVcIqywd/PNY5orqmLFtxqM3BXwnhHntnvjQ=",
@@ -158,8 +158,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.native.vzj2a6aakt.js"
     },
     {
-      "hash": "sha256-remafzHVjKOgm17bR4Qnqc9ztgi+A9XRmAiGvTKBVpI=",
-      "url": "_framework/dotnet.nn477vssm2.js"
+      "hash": "sha256-Qke1XBLPjJtBQH9dJZV2pvVVHQ6T4X4wavLUQXf74Ac=",
+      "url": "_framework/dotnet.q2u46su9uz.js"
     },
     {
       "hash": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
@@ -178,7 +178,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.lfu7j35m59.dat"
     },
     {
-      "hash": "sha256-yRJ49z3y3rHi/X6jpbhaZS6+RJBCP3/2qRNriPwlJ3c=",
+      "hash": "sha256-OK3npBabD6nfgT2EBNmINQlSA+IQNkr2pwKhHxNnr9Q=",
       "url": "css/app.css"
     },
     {
@@ -194,15 +194,659 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-KlH7BdLx0Pyd0spFgp2pZbaMgjNSZj4UgPXxm+5DVtk=",
-      "url": "imagens/produto1.jpg"
+      "hash": "sha256-3zrMVPX1xJCCErIc7XHpvYpOPJ9Lqs2cObI+w9H/W6U=",
+      "url": "imagens/Acido_Azelaico_Gel.jpeg"
     },
     {
-      "hash": "sha256-VzyRvouOOfiUacu06nkvjYM48/tmCCKsUkRBVCzOqXo=",
-      "url": "imagens/produto2.jpg"
+      "hash": "sha256-W4QvMIn77Y1mskj/u1yUiRurRtCU4KdH+Ajeg61KR7Q=",
+      "url": "imagens/Aloe_Vera_Gel.jpeg"
     },
     {
-      "hash": "sha256-De2D8XE1iq64nbEMYlBJZVh44+KpLi+aKptejEi5J6s=",
+      "hash": "sha256-bxxg8ND9yQ76LckG8FSIFJe6RixLDnwUtLzJqk8jvCU=",
+      "url": "imagens/Anti_Fungos_Solucao.jpeg"
+    },
+    {
+      "hash": "sha256-nHtb0tbAhiiQr4C1PFc+zlxp9bBZe9LeXokaEYVSaYI=",
+      "url": "imagens/Antirrugas_Creme_Colageneo.jpeg"
+    },
+    {
+      "hash": "sha256-r/O8JvvdGGZfy4vZwHq9kkVBZ/a84UD6PzhfQyapO/s=",
+      "url": "imagens/Aplicador_Lalacherry.jpeg"
+    },
+    {
+      "hash": "sha256-ucCT3W8xPfCANozwFEalbOVfcySXIpHyF7PAWfoHZLQ=",
+      "url": "imagens/Arnica_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-k0OajE4vkUFw8gkSxoTHmHqkTmY8raehClygmxcquzA=",
+      "url": "imagens/Balsamo_Cavalo_Frio.jpeg"
+    },
+    {
+      "hash": "sha256-iOJDH+ld05pd9WjdHMNXEmAwVxcf2wwmC7wywQGg2+Q=",
+      "url": "imagens/Balsamo_Labial_Volume.jpeg"
+    },
+    {
+      "hash": "sha256-V5hYh0jce4PSEc1sQ2QD3LZ5obmiSkB79q8guC4b5WA=",
+      "url": "imagens/Biotina_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-Kizak+e5gEpzsgtDEbjP3XVDZpiGFtgcEOjeSN8yMA8=",
+      "url": "imagens/Body_Set_Adorable.jpeg"
+    },
+    {
+      "hash": "sha256-L9PITuFA9629nJESZ7TjyJULRFz3Mt+JrkLTsdDHG4g=",
+      "url": "imagens/Body_Set_Blossom.jpeg"
+    },
+    {
+      "hash": "sha256-ufgLS+JRrXqRljE3r7mDwNlUJxc95PADWT8jU1pdZ8I=",
+      "url": "imagens/Body_Set_Desire.jpeg"
+    },
+    {
+      "hash": "sha256-kw+gtwnQyuoV36Oa24hNoXgW7UpgbsglYWA9JoDlrdY=",
+      "url": "imagens/Body_Set_Elegance.jpeg"
+    },
+    {
+      "hash": "sha256-X1gz8UOVhtgYb+dAFreJhmqa7C6+8qVobz1Dv8HEeqY=",
+      "url": "imagens/Body_Set_Mystery.jpeg"
+    },
+    {
+      "hash": "sha256-sE66kJvp/f1yjhjf9qH2iZzb56J0EAnq+AH3AG3Hh18=",
+      "url": "imagens/Body_Set_Seductive.jpeg"
+    },
+    {
+      "hash": "sha256-PWaTa6YuGUvOKmDBfWcrs7d1D+HjAmWp4ZQcGR6UpFs=",
+      "url": "imagens/Branqueador_dental_tiras.jpeg"
+    },
+    {
+      "hash": "sha256-+f+DUMZgkog8XgovdvWs3A/bM/nRVc9VwchatntY04E=",
+      "url": "imagens/Calendula_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-YAwALfyETrVovNpk4H7Cqi9hajiUwrJSM9SxO/0YiH4=",
+      "url": "imagens/Centelha_Asiatica_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-eLQw51xeI9nv13H55cPxvN0nRww9+0PFLO+XWUJ3u44=",
+      "url": "imagens/Colutorio_Halito_Fresco.jpeg"
+    },
+    {
+      "hash": "sha256-NkuYbAnG3E6+gDeRdLQDCzVKgOUFSsSXF5oZa7BleA8=",
+      "url": "imagens/Colutorio_Halito_Fresco2.jpeg"
+    },
+    {
+      "hash": "sha256-HcN2/wAJsNieJ3m7T78V/ZeFy4V3r3brHV2G4z6Lp6c=",
+      "url": "imagens/Creme_Maos_Frutos.jpeg"
+    },
+    {
+      "hash": "sha256-0dvsq0QQOiGeGggZL9bXe1BOIFyTnl5XT8PpbMAKpx4=",
+      "url": "imagens/Cuidado_Hidratacao_Firmeza_Rosto.jpeg"
+    },
+    {
+      "hash": "sha256-HwLcz2fRPPMl4B9XkAsv0svZVz/MuiQ0hcnt94HGs58=",
+      "url": "imagens/Cute_Lover_Bloomimg.jpeg"
+    },
+    {
+      "hash": "sha256-TnpmsmTvZT+jMWyj89J5Wjj8wpY7MXT4r8qXtV1oqCU=",
+      "url": "imagens/Cute_Lover_Kit_Beleza.jpeg"
+    },
+    {
+      "hash": "sha256-SzFsHKEj7YXxqNtnVV7Q02VKV2DT87mmyEZM6/9+Jt4=",
+      "url": "imagens/Cute_Lover_Marshmallow.jpeg"
+    },
+    {
+      "hash": "sha256-ikgF4YSQSz6dg+iTKkr7HJY0Gkpv3ZNhZd4YTl7i5GI=",
+      "url": "imagens/Cute_Lover_Morango.jpeg"
+    },
+    {
+      "hash": "sha256-fS137QshAg5tpnpcEkrHtMxxxHJHDVe046xzTIOP7xI=",
+      "url": "imagens/Gel_Banho_Argao_Baunilha.jpeg"
+    },
+    {
+      "hash": "sha256-p+lXoUSD5NxpJbNp9/g3gwudzm4K/g4JADPCxxsVv/k=",
+      "url": "imagens/Gel_Banho_Coco.jpeg"
+    },
+    {
+      "hash": "sha256-d4YESs0L8B3fAI8dIZIKxF4PjrCMwD1IOghAPyXlP+E=",
+      "url": "imagens/Gel_Banho_Monoi.jpeg"
+    },
+    {
+      "hash": "sha256-4LnitvUvXnHpzEutlrRKXEQVMPwHOndmCN0BClg2RBA=",
+      "url": "imagens/Gel_Banho_Talco.jpeg"
+    },
+    {
+      "hash": "sha256-zLYIVOJekpfQp1kpgD7dGdE0B70mIORL94LQSRva0Ww=",
+      "url": "imagens/Gel_Limpeza_Facial.jpeg"
+    },
+    {
+      "hash": "sha256-BsajoGQkztySQd1qYQthz4hxhCG0uORIxsj5KZHmnW8=",
+      "url": "imagens/Insensos.jpeg"
+    },
+    {
+      "hash": "sha256-Vk3RhhbkF8aGcjBFUqVK4bGCdyugWig+0PzMUeSwgkE=",
+      "url": "imagens/Kailinya_creme_coreano.jpeg"
+    },
+    {
+      "hash": "sha256-6ZtFnBIb3UeJI9qxVkfy/geW9UKrjyFQoHG1uOefP3E=",
+      "url": "imagens/Kit_Beija_Flor.jpeg"
+    },
+    {
+      "hash": "sha256-TOoHt0161jhKYKitKqc4HwEBV2nSSIpuV7W64iQYV8c=",
+      "url": "imagens/Kit_Compacto.jpeg"
+    },
+    {
+      "hash": "sha256-8EuGpEGwiIxAV5lvGhce9aA9pY7mpXhZo3xMgVMUSjc=",
+      "url": "imagens/Kit_Rich_Man.jpeg"
+    },
+    {
+      "hash": "sha256-RsB2MCCVfBj2qYcRIdJ3o/lWnph2v7TO3Z4NZzl3n5s=",
+      "url": "imagens/Kit_Sol_Janeiro.jpeg"
+    },
+    {
+      "hash": "sha256-7scUc/yTJE1OV+Ki84M31iIgKSoHM/iD1/7is92SS34=",
+      "url": "imagens/Kit_Viagem_Brilho.jpeg"
+    },
+    {
+      "hash": "sha256-Q7f2J1PU/B11luruyvEeAbAFxnnbEvx/4aFkg+UwKGs=",
+      "url": "imagens/Kit_Viagem_Bum_Bum.jpeg"
+    },
+    {
+      "hash": "sha256-j3RIU0v3kTAWF8HnmSXrdDay2Eat6fYCis8jFOJxGAU=",
+      "url": "imagens/Linha_Capilar_Kids.jpeg"
+    },
+    {
+      "hash": "sha256-2KZ3dCka8JaMLT9XatK+XHSquxSaghGArG7DeI5+uSs=",
+      "url": "imagens/Logo.jpeg"
+    },
+    {
+      "hash": "sha256-TfLvtdplMfuogkwCik1zHUA3q8wdLobdKeTZAxlgN3M=",
+      "url": "imagens/Mascara_Colageneo_facial.jpeg"
+    },
+    {
+      "hash": "sha256-QKJlYwO8gODRN2vc1RJII7NP1IZXVXoloGVh+/ypRBI=",
+      "url": "imagens/Mascara_Labial.jpeg"
+    },
+    {
+      "hash": "sha256-a8EKy20RJdgcQi06Yg8RARmMhMkuGksos9FN9ncWr6Y=",
+      "url": "imagens/Mascara_Refrescante.jpeg"
+    },
+    {
+      "hash": "sha256-xEIs3bjy1ct8NFaX+w2RhOE3EOE7WCfxrxNjkctOJkg=",
+      "url": "imagens/Melatonina_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-nZPkACAA655E5oMbbTv9HC0Gvt1RL979FqgSVo57BgY=",
+      "url": "imagens/Multivitaminas_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-NwMaVCfofXQ0RixwtohThJSONNVQKckzEzLzr2sObWE=",
+      "url": "imagens/Niacinamida_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-j2lrzbIFxcQS6AGLmMk/oj/wHT45kn1d9Is6vpfwNEI=",
+      "url": "imagens/Niacinamida_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-JFaw9i/D0OpNH+poDkUQGofWZYnpQ2aUpnqKkv7KsrM=",
+      "url": "imagens/Oleo_Labial.jpeg"
+    },
+    {
+      "hash": "sha256-mVm0/QT6DpidohBCcHm9Oq7luD/E3yIF5+fOtns5k5Q=",
+      "url": "imagens/Paleta_sombras.jpeg"
+    },
+    {
+      "hash": "sha256-UNNxKS+US9jXzNh6KiPku89arPB+wMQrIRQv4KM19rk=",
+      "url": "imagens/Perfume_Aswad.jpeg"
+    },
+    {
+      "hash": "sha256-0zKaU2uWbqjRVOS99utzl4Im0SnRrKj8DDsjIAl5pp0=",
+      "url": "imagens/Perfume_Aswad2.jpeg"
+    },
+    {
+      "hash": "sha256-3W7O7jLH4KwsgHHNQGoTlE5qvOudqRkEGpMK6QXrJCE=",
+      "url": "imagens/Probioticos_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-3zrMVPX1xJCCErIc7XHpvYpOPJ9Lqs2cObI+w9H/W6U=",
+      "url": "imagens/Prod_tratados/Acido_Azelaico_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-W4QvMIn77Y1mskj/u1yUiRurRtCU4KdH+Ajeg61KR7Q=",
+      "url": "imagens/Prod_tratados/Aloe_Vera_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-bxxg8ND9yQ76LckG8FSIFJe6RixLDnwUtLzJqk8jvCU=",
+      "url": "imagens/Prod_tratados/Anti_Fungos_Solucao.jpeg"
+    },
+    {
+      "hash": "sha256-nHtb0tbAhiiQr4C1PFc+zlxp9bBZe9LeXokaEYVSaYI=",
+      "url": "imagens/Prod_tratados/Antirrugas_Creme_Colageneo.jpeg"
+    },
+    {
+      "hash": "sha256-r/O8JvvdGGZfy4vZwHq9kkVBZ/a84UD6PzhfQyapO/s=",
+      "url": "imagens/Prod_tratados/Aplicador_Lalacherry.jpeg"
+    },
+    {
+      "hash": "sha256-ucCT3W8xPfCANozwFEalbOVfcySXIpHyF7PAWfoHZLQ=",
+      "url": "imagens/Prod_tratados/Arnica_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-k0OajE4vkUFw8gkSxoTHmHqkTmY8raehClygmxcquzA=",
+      "url": "imagens/Prod_tratados/Balsamo_Cavalo_Frio.jpeg"
+    },
+    {
+      "hash": "sha256-iOJDH+ld05pd9WjdHMNXEmAwVxcf2wwmC7wywQGg2+Q=",
+      "url": "imagens/Prod_tratados/Balsamo_Labial_Volume.jpeg"
+    },
+    {
+      "hash": "sha256-V5hYh0jce4PSEc1sQ2QD3LZ5obmiSkB79q8guC4b5WA=",
+      "url": "imagens/Prod_tratados/Biotina_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-Kizak+e5gEpzsgtDEbjP3XVDZpiGFtgcEOjeSN8yMA8=",
+      "url": "imagens/Prod_tratados/Body_Set_Adorable.jpeg"
+    },
+    {
+      "hash": "sha256-L9PITuFA9629nJESZ7TjyJULRFz3Mt+JrkLTsdDHG4g=",
+      "url": "imagens/Prod_tratados/Body_Set_Blossom.jpeg"
+    },
+    {
+      "hash": "sha256-ufgLS+JRrXqRljE3r7mDwNlUJxc95PADWT8jU1pdZ8I=",
+      "url": "imagens/Prod_tratados/Body_Set_Desire.jpeg"
+    },
+    {
+      "hash": "sha256-kw+gtwnQyuoV36Oa24hNoXgW7UpgbsglYWA9JoDlrdY=",
+      "url": "imagens/Prod_tratados/Body_Set_Elegance.jpeg"
+    },
+    {
+      "hash": "sha256-X1gz8UOVhtgYb+dAFreJhmqa7C6+8qVobz1Dv8HEeqY=",
+      "url": "imagens/Prod_tratados/Body_Set_Mystery.jpeg"
+    },
+    {
+      "hash": "sha256-sE66kJvp/f1yjhjf9qH2iZzb56J0EAnq+AH3AG3Hh18=",
+      "url": "imagens/Prod_tratados/Body_Set_Seductive.jpeg"
+    },
+    {
+      "hash": "sha256-PWaTa6YuGUvOKmDBfWcrs7d1D+HjAmWp4ZQcGR6UpFs=",
+      "url": "imagens/Prod_tratados/Branqueador_dental_tiras.jpeg"
+    },
+    {
+      "hash": "sha256-+f+DUMZgkog8XgovdvWs3A/bM/nRVc9VwchatntY04E=",
+      "url": "imagens/Prod_tratados/Calendula_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-YAwALfyETrVovNpk4H7Cqi9hajiUwrJSM9SxO/0YiH4=",
+      "url": "imagens/Prod_tratados/Centelha_Asiatica_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-eLQw51xeI9nv13H55cPxvN0nRww9+0PFLO+XWUJ3u44=",
+      "url": "imagens/Prod_tratados/Colutorio_Halito_Fresco.jpeg"
+    },
+    {
+      "hash": "sha256-NkuYbAnG3E6+gDeRdLQDCzVKgOUFSsSXF5oZa7BleA8=",
+      "url": "imagens/Prod_tratados/Colutorio_Halito_Fresco2.jpeg"
+    },
+    {
+      "hash": "sha256-HcN2/wAJsNieJ3m7T78V/ZeFy4V3r3brHV2G4z6Lp6c=",
+      "url": "imagens/Prod_tratados/Creme_Maos_Frutos.jpeg"
+    },
+    {
+      "hash": "sha256-0dvsq0QQOiGeGggZL9bXe1BOIFyTnl5XT8PpbMAKpx4=",
+      "url": "imagens/Prod_tratados/Cuidado_Hidratacao_Firmeza_Rosto.jpeg"
+    },
+    {
+      "hash": "sha256-HwLcz2fRPPMl4B9XkAsv0svZVz/MuiQ0hcnt94HGs58=",
+      "url": "imagens/Prod_tratados/Cute_Lover_Bloomimg.jpeg"
+    },
+    {
+      "hash": "sha256-TnpmsmTvZT+jMWyj89J5Wjj8wpY7MXT4r8qXtV1oqCU=",
+      "url": "imagens/Prod_tratados/Cute_Lover_Kit_Beleza.jpeg"
+    },
+    {
+      "hash": "sha256-SzFsHKEj7YXxqNtnVV7Q02VKV2DT87mmyEZM6/9+Jt4=",
+      "url": "imagens/Prod_tratados/Cute_Lover_Marshmallow.jpeg"
+    },
+    {
+      "hash": "sha256-ikgF4YSQSz6dg+iTKkr7HJY0Gkpv3ZNhZd4YTl7i5GI=",
+      "url": "imagens/Prod_tratados/Cute_Lover_Morango.jpeg"
+    },
+    {
+      "hash": "sha256-fS137QshAg5tpnpcEkrHtMxxxHJHDVe046xzTIOP7xI=",
+      "url": "imagens/Prod_tratados/Gel_Banho_Argao_Baunilha.jpeg"
+    },
+    {
+      "hash": "sha256-p+lXoUSD5NxpJbNp9/g3gwudzm4K/g4JADPCxxsVv/k=",
+      "url": "imagens/Prod_tratados/Gel_Banho_Coco.jpeg"
+    },
+    {
+      "hash": "sha256-d4YESs0L8B3fAI8dIZIKxF4PjrCMwD1IOghAPyXlP+E=",
+      "url": "imagens/Prod_tratados/Gel_Banho_Monoi.jpeg"
+    },
+    {
+      "hash": "sha256-4LnitvUvXnHpzEutlrRKXEQVMPwHOndmCN0BClg2RBA=",
+      "url": "imagens/Prod_tratados/Gel_Banho_Talco.jpeg"
+    },
+    {
+      "hash": "sha256-zLYIVOJekpfQp1kpgD7dGdE0B70mIORL94LQSRva0Ww=",
+      "url": "imagens/Prod_tratados/Gel_Limpeza_Facial.jpeg"
+    },
+    {
+      "hash": "sha256-BsajoGQkztySQd1qYQthz4hxhCG0uORIxsj5KZHmnW8=",
+      "url": "imagens/Prod_tratados/Insensos.jpeg"
+    },
+    {
+      "hash": "sha256-Vk3RhhbkF8aGcjBFUqVK4bGCdyugWig+0PzMUeSwgkE=",
+      "url": "imagens/Prod_tratados/Kailinya_creme_coreano.jpeg"
+    },
+    {
+      "hash": "sha256-6ZtFnBIb3UeJI9qxVkfy/geW9UKrjyFQoHG1uOefP3E=",
+      "url": "imagens/Prod_tratados/Kit_Beija_Flor.jpeg"
+    },
+    {
+      "hash": "sha256-TOoHt0161jhKYKitKqc4HwEBV2nSSIpuV7W64iQYV8c=",
+      "url": "imagens/Prod_tratados/Kit_Compacto.jpeg"
+    },
+    {
+      "hash": "sha256-8EuGpEGwiIxAV5lvGhce9aA9pY7mpXhZo3xMgVMUSjc=",
+      "url": "imagens/Prod_tratados/Kit_Rich_Man.jpeg"
+    },
+    {
+      "hash": "sha256-RsB2MCCVfBj2qYcRIdJ3o/lWnph2v7TO3Z4NZzl3n5s=",
+      "url": "imagens/Prod_tratados/Kit_Sol_Janeiro.jpeg"
+    },
+    {
+      "hash": "sha256-7scUc/yTJE1OV+Ki84M31iIgKSoHM/iD1/7is92SS34=",
+      "url": "imagens/Prod_tratados/Kit_Viagem_Brilho.jpeg"
+    },
+    {
+      "hash": "sha256-Q7f2J1PU/B11luruyvEeAbAFxnnbEvx/4aFkg+UwKGs=",
+      "url": "imagens/Prod_tratados/Kit_Viagem_Bum_Bum.jpeg"
+    },
+    {
+      "hash": "sha256-j3RIU0v3kTAWF8HnmSXrdDay2Eat6fYCis8jFOJxGAU=",
+      "url": "imagens/Prod_tratados/Linha_Capilar_Kids.jpeg"
+    },
+    {
+      "hash": "sha256-TfLvtdplMfuogkwCik1zHUA3q8wdLobdKeTZAxlgN3M=",
+      "url": "imagens/Prod_tratados/Mascara_Colageneo_facial.jpeg"
+    },
+    {
+      "hash": "sha256-QKJlYwO8gODRN2vc1RJII7NP1IZXVXoloGVh+/ypRBI=",
+      "url": "imagens/Prod_tratados/Mascara_Labial.jpeg"
+    },
+    {
+      "hash": "sha256-a8EKy20RJdgcQi06Yg8RARmMhMkuGksos9FN9ncWr6Y=",
+      "url": "imagens/Prod_tratados/Mascara_Refrescante.jpeg"
+    },
+    {
+      "hash": "sha256-xEIs3bjy1ct8NFaX+w2RhOE3EOE7WCfxrxNjkctOJkg=",
+      "url": "imagens/Prod_tratados/Melatonina_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-nZPkACAA655E5oMbbTv9HC0Gvt1RL979FqgSVo57BgY=",
+      "url": "imagens/Prod_tratados/Multivitaminas_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-NwMaVCfofXQ0RixwtohThJSONNVQKckzEzLzr2sObWE=",
+      "url": "imagens/Prod_tratados/Niacinamida_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-j2lrzbIFxcQS6AGLmMk/oj/wHT45kn1d9Is6vpfwNEI=",
+      "url": "imagens/Prod_tratados/Niacinamida_Gel.jpeg"
+    },
+    {
+      "hash": "sha256-JFaw9i/D0OpNH+poDkUQGofWZYnpQ2aUpnqKkv7KsrM=",
+      "url": "imagens/Prod_tratados/Oleo_Labial.jpeg"
+    },
+    {
+      "hash": "sha256-mVm0/QT6DpidohBCcHm9Oq7luD/E3yIF5+fOtns5k5Q=",
+      "url": "imagens/Prod_tratados/Paleta_sombras.jpeg"
+    },
+    {
+      "hash": "sha256-UNNxKS+US9jXzNh6KiPku89arPB+wMQrIRQv4KM19rk=",
+      "url": "imagens/Prod_tratados/Perfume_Aswad.jpeg"
+    },
+    {
+      "hash": "sha256-0zKaU2uWbqjRVOS99utzl4Im0SnRrKj8DDsjIAl5pp0=",
+      "url": "imagens/Prod_tratados/Perfume_Aswad2.jpeg"
+    },
+    {
+      "hash": "sha256-3W7O7jLH4KwsgHHNQGoTlE5qvOudqRkEGpMK6QXrJCE=",
+      "url": "imagens/Prod_tratados/Probioticos_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-Kx8JZYo3Ek13uwCghTe4wEtasfNg4orhHQKk8HEl+7A=",
+      "url": "imagens/Prod_tratados/Retinol_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-wuMin09E+ObUEPstNDYvDhiktMhaJgyrP1bs466FEsg=",
+      "url": "imagens/Prod_tratados/Retinol_Shot.jpeg"
+    },
+    {
+      "hash": "sha256-cciht2s74UNiLqZ6PDo8B0T05fbOXAMU+E5TuG9P6js=",
+      "url": "imagens/Prod_tratados/SOS_Acne_creme.jpeg"
+    },
+    {
+      "hash": "sha256-gBHn/Awg+BGsmk3tcDwNKuZerNBKuUH3vF+jWfYpTD4=",
+      "url": "imagens/Prod_tratados/Serum_Acido_Hialuronico.jpeg"
+    },
+    {
+      "hash": "sha256-pVD/C8ZRMSHsoSrFMmjzhLu+JpYXz/upp9+oEPjaLdw=",
+      "url": "imagens/Prod_tratados/Serum_Antirrugas_Peito.jpeg"
+    },
+    {
+      "hash": "sha256-Z/axMOkih8PeQlMTcx7W3CH0JMO9reXASxjB1JNRAYA=",
+      "url": "imagens/Prod_tratados/Serum_Capilar.jpeg"
+    },
+    {
+      "hash": "sha256-L4PBC9OdtJMbdxdkVvyHpvc3B+auntVu5vF1EqZMQwE=",
+      "url": "imagens/Prod_tratados/Serum_Estrias_Corpo.jpeg"
+    },
+    {
+      "hash": "sha256-Xq3LC6k8TL6yljBvNrVFwxWxXbwLF6DGMgDmRN8d8BU=",
+      "url": "imagens/Prod_tratados/Serum_Firmeza.jpeg"
+    },
+    {
+      "hash": "sha256-4dOQXozcaFRqmSYifQNdta4zwfKDeY24dI0FY1iCFs0=",
+      "url": "imagens/Prod_tratados/Serum_Niacinamida.jpeg"
+    },
+    {
+      "hash": "sha256-AQAeCToq9DnaamZVEtT01Ex3G/dQh3v2wylplMdHuKQ=",
+      "url": "imagens/Prod_tratados/Serum_Pink_Peptidos.jpeg"
+    },
+    {
+      "hash": "sha256-3RYbK56ky3I9QrNJNpELg0IYna4CPhoR3FglZpLxiKY=",
+      "url": "imagens/Prod_tratados/Serum_Reafirmante_Corpo.jpeg"
+    },
+    {
+      "hash": "sha256-JJ2xYm4E6Bsd+SlRfDs09EuaSymmP9HrVbZoMmKhxqA=",
+      "url": "imagens/Prod_tratados/Shampo_Abacate.jpeg"
+    },
+    {
+      "hash": "sha256-AT4zHf9LURiFI3inUf/aEibEbYk774m0dpjphnWFXSk=",
+      "url": "imagens/Prod_tratados/Shampo_AntiQueda.jpeg"
+    },
+    {
+      "hash": "sha256-o49sZxJ2vArOyA2VG3oegriRkXGwcKFt2HR3VOU4yts=",
+      "url": "imagens/Prod_tratados/Shampo_Coco.jpeg"
+    },
+    {
+      "hash": "sha256-2bnddHheSilk4kVGr3BOjaLrIxWcMr5mhX7ikr45bN8=",
+      "url": "imagens/Prod_tratados/Shampo_Lisos.jpeg"
+    },
+    {
+      "hash": "sha256-Zo5nIf7q7Xn9x2upw+b2rDUVG4QzyAjgB8TQv70CaZY=",
+      "url": "imagens/Prod_tratados/Shampo_Neutro.jpeg"
+    },
+    {
+      "hash": "sha256-FH7tuBz7RAU6UntrO/4e4C8938dDL+HHH5SM9XcDqOY=",
+      "url": "imagens/Prod_tratados/Shampo_Nutricao.jpeg"
+    },
+    {
+      "hash": "sha256-4HBGnLhhR9WMIZvaRVo9+7CUHKCVHOHw0a6cHJyLAY4=",
+      "url": "imagens/Prod_tratados/Shampo_Platino.jpeg"
+    },
+    {
+      "hash": "sha256-wRKRFRBlzV3/Gsk2BDU+FabrwT5PGxRWwWY/JOoC2rU=",
+      "url": "imagens/Prod_tratados/Shampo_Rapunzel.jpeg"
+    },
+    {
+      "hash": "sha256-y2k0iLg1PykeZh781Nj2ZmmswJlmJuucFcnKvJiEMvk=",
+      "url": "imagens/Prod_tratados/Shampo_Revitalizante.jpeg"
+    },
+    {
+      "hash": "sha256-Dz3ULPNxhir9YNafkOUBNW6yfydqiHnmO6PdT9c5KLE=",
+      "url": "imagens/Prod_tratados/Squishy_Disney.jpeg"
+    },
+    {
+      "hash": "sha256-QM0CpCTsOkxkRIZj1U+L42VkcJD5+q8wKEqaFV49GQ0=",
+      "url": "imagens/Prod_tratados/Squishy_Disney_Bonecos.jpeg"
+    },
+    {
+      "hash": "sha256-TJ7AhR5MtGYWtecz7Mmr9J8NlH8Nq0VCmIGCSmipfyY=",
+      "url": "imagens/Prod_tratados/Squishy_Fofos_Bonecos.jpeg"
+    },
+    {
+      "hash": "sha256-B1d1+9093zQHBxoHLv6WzeykQVRlwKy15cMx5oPtJxY=",
+      "url": "imagens/Prod_tratados/Squishy_Homem_Aranha.jpeg"
+    },
+    {
+      "hash": "sha256-BHUa7IAuv/JuYq2mIdY8gye18Z9LxGFLs0WJtuQUIw4=",
+      "url": "imagens/Prod_tratados/Squishy_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-V/Khw7wFvCBn/ekIv6QoRu21Z181DbeYx73I+Liq8mQ=",
+      "url": "imagens/Prod_tratados/Toalhetes_Humidos.jpeg"
+    },
+    {
+      "hash": "sha256-l5lB1N503ZKFdk6Y5Wvi3KAMT4o6AuR0SbyxraJi5Dg=",
+      "url": "imagens/Prod_tratados/Toalhitas_WC.jpeg"
+    },
+    {
+      "hash": "sha256-PscsAaRNdPUBLCSDd9rO8dmBOP0vK+J8eU0OC8Mb/S0=",
+      "url": "imagens/Prod_tratados/Velas_Aromaticas.jpeg"
+    },
+    {
+      "hash": "sha256-lZi64+ut6xyEVhGKRULv/jKY1Pc4KMrrDVe1BBYWDag=",
+      "url": "imagens/Prod_tratados/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-Kx8JZYo3Ek13uwCghTe4wEtasfNg4orhHQKk8HEl+7A=",
+      "url": "imagens/Retinol_Creme_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-wuMin09E+ObUEPstNDYvDhiktMhaJgyrP1bs466FEsg=",
+      "url": "imagens/Retinol_Shot.jpeg"
+    },
+    {
+      "hash": "sha256-cciht2s74UNiLqZ6PDo8B0T05fbOXAMU+E5TuG9P6js=",
+      "url": "imagens/SOS_Acne_creme.jpeg"
+    },
+    {
+      "hash": "sha256-gBHn/Awg+BGsmk3tcDwNKuZerNBKuUH3vF+jWfYpTD4=",
+      "url": "imagens/Serum_Acido_Hialuronico.jpeg"
+    },
+    {
+      "hash": "sha256-pVD/C8ZRMSHsoSrFMmjzhLu+JpYXz/upp9+oEPjaLdw=",
+      "url": "imagens/Serum_Antirrugas_Peito.jpeg"
+    },
+    {
+      "hash": "sha256-Z/axMOkih8PeQlMTcx7W3CH0JMO9reXASxjB1JNRAYA=",
+      "url": "imagens/Serum_Capilar.jpeg"
+    },
+    {
+      "hash": "sha256-L4PBC9OdtJMbdxdkVvyHpvc3B+auntVu5vF1EqZMQwE=",
+      "url": "imagens/Serum_Estrias_Corpo.jpeg"
+    },
+    {
+      "hash": "sha256-Xq3LC6k8TL6yljBvNrVFwxWxXbwLF6DGMgDmRN8d8BU=",
+      "url": "imagens/Serum_Firmeza.jpeg"
+    },
+    {
+      "hash": "sha256-4dOQXozcaFRqmSYifQNdta4zwfKDeY24dI0FY1iCFs0=",
+      "url": "imagens/Serum_Niacinamida.jpeg"
+    },
+    {
+      "hash": "sha256-AQAeCToq9DnaamZVEtT01Ex3G/dQh3v2wylplMdHuKQ=",
+      "url": "imagens/Serum_Pink_Peptidos.jpeg"
+    },
+    {
+      "hash": "sha256-3RYbK56ky3I9QrNJNpELg0IYna4CPhoR3FglZpLxiKY=",
+      "url": "imagens/Serum_Reafirmante_Corpo.jpeg"
+    },
+    {
+      "hash": "sha256-JJ2xYm4E6Bsd+SlRfDs09EuaSymmP9HrVbZoMmKhxqA=",
+      "url": "imagens/Shampo_Abacate.jpeg"
+    },
+    {
+      "hash": "sha256-AT4zHf9LURiFI3inUf/aEibEbYk774m0dpjphnWFXSk=",
+      "url": "imagens/Shampo_AntiQueda.jpeg"
+    },
+    {
+      "hash": "sha256-o49sZxJ2vArOyA2VG3oegriRkXGwcKFt2HR3VOU4yts=",
+      "url": "imagens/Shampo_Coco.jpeg"
+    },
+    {
+      "hash": "sha256-2bnddHheSilk4kVGr3BOjaLrIxWcMr5mhX7ikr45bN8=",
+      "url": "imagens/Shampo_Lisos.jpeg"
+    },
+    {
+      "hash": "sha256-Zo5nIf7q7Xn9x2upw+b2rDUVG4QzyAjgB8TQv70CaZY=",
+      "url": "imagens/Shampo_Neutro.jpeg"
+    },
+    {
+      "hash": "sha256-FH7tuBz7RAU6UntrO/4e4C8938dDL+HHH5SM9XcDqOY=",
+      "url": "imagens/Shampo_Nutricao.jpeg"
+    },
+    {
+      "hash": "sha256-4HBGnLhhR9WMIZvaRVo9+7CUHKCVHOHw0a6cHJyLAY4=",
+      "url": "imagens/Shampo_Platino.jpeg"
+    },
+    {
+      "hash": "sha256-wRKRFRBlzV3/Gsk2BDU+FabrwT5PGxRWwWY/JOoC2rU=",
+      "url": "imagens/Shampo_Rapunzel.jpeg"
+    },
+    {
+      "hash": "sha256-y2k0iLg1PykeZh781Nj2ZmmswJlmJuucFcnKvJiEMvk=",
+      "url": "imagens/Shampo_Revitalizante.jpeg"
+    },
+    {
+      "hash": "sha256-Dz3ULPNxhir9YNafkOUBNW6yfydqiHnmO6PdT9c5KLE=",
+      "url": "imagens/Squishy_Disney.jpeg"
+    },
+    {
+      "hash": "sha256-QM0CpCTsOkxkRIZj1U+L42VkcJD5+q8wKEqaFV49GQ0=",
+      "url": "imagens/Squishy_Disney_Bonecos.jpeg"
+    },
+    {
+      "hash": "sha256-TJ7AhR5MtGYWtecz7Mmr9J8NlH8Nq0VCmIGCSmipfyY=",
+      "url": "imagens/Squishy_Fofos_Bonecos.jpeg"
+    },
+    {
+      "hash": "sha256-B1d1+9093zQHBxoHLv6WzeykQVRlwKy15cMx5oPtJxY=",
+      "url": "imagens/Squishy_Homem_Aranha.jpeg"
+    },
+    {
+      "hash": "sha256-BHUa7IAuv/JuYq2mIdY8gye18Z9LxGFLs0WJtuQUIw4=",
+      "url": "imagens/Squishy_Premium.jpeg"
+    },
+    {
+      "hash": "sha256-V/Khw7wFvCBn/ekIv6QoRu21Z181DbeYx73I+Liq8mQ=",
+      "url": "imagens/Toalhetes_Humidos.jpeg"
+    },
+    {
+      "hash": "sha256-l5lB1N503ZKFdk6Y5Wvi3KAMT4o6AuR0SbyxraJi5Dg=",
+      "url": "imagens/Toalhitas_WC.jpeg"
+    },
+    {
+      "hash": "sha256-PscsAaRNdPUBLCSDd9rO8dmBOP0vK+J8eU0OC8Mb/S0=",
+      "url": "imagens/Velas_Aromaticas.jpeg"
+    },
+    {
+      "hash": "sha256-lZi64+ut6xyEVhGKRULv/jKY1Pc4KMrrDVe1BBYWDag=",
+      "url": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
+    },
+    {
+      "hash": "sha256-v7i9V5i6YGLgiuENaDaeFuf5VvuwYylzxtG6QLiGm0A=",
       "url": "index.html"
     },
     {
@@ -386,7 +1030,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-XEcEv2kc/1oSUHtgonKBS4kLVYotY1UEquIbIL3eGPQ=",
+      "hash": "sha256-Pj74ZOGwvPFiGYknj5PCe87jDGMPFbRQhBIRAtXFXgU=",
       "url": "produtos.json"
     },
     {
