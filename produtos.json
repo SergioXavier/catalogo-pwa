@@ -2,406 +2,487 @@
     {
         "id": 1,
         "nome": "Acido Azelaico Gel",
-        "imagem": "imagens/Acido_Azelaico_Gel.jpeg"
+        "imagem": "imagens/Acido_Azelaico_Gel.jpeg",
+        "preco": 9.99
     },
     {
         "id": 2,
         "nome": "Aloe Vera Gel",
-        "imagem": "imagens/Aloe_Vera_Gel.jpeg"
+        "imagem": "imagens/Aloe_Vera_Gel.jpeg",
+        "preco": 3
     },
     {
         "id": 3,
         "nome": "Anti Fungos Solucao",
-        "imagem": "imagens/Anti_Fungos_Solucao.jpeg"
+        "imagem": "imagens/Anti_Fungos_Solucao.jpeg",
+        "preco": 5.25
     },
     {
         "id": 4,
         "nome": "Antirrugas Creme Colageneo",
-        "imagem": "imagens/Antirrugas_Creme_Colageneo.jpeg"
+        "imagem": "imagens/Antirrugas_Creme_Colageneo.jpeg",
+        "preco": 15.55
     },
     {
         "id": 5,
         "nome": "Aplicador Lalacherry",
-        "imagem": "imagens/Aplicador_Lalacherry.jpeg"
+        "imagem": "imagens/Aplicador_Lalacherry.jpeg",
+        "preco": 3
     },
     {
         "id": 6,
         "nome": "Arnica Gel",
-        "imagem": "imagens/Arnica_Gel.jpeg"
+        "imagem": "imagens/Arnica_Gel.jpeg",
+        "preco": 3
     },
     {
         "id": 7,
         "nome": "Balsamo Cavalo Frio",
-        "imagem": "imagens/Balsamo_Cavalo_Frio.jpeg"
+        "imagem": "imagens/Balsamo_Cavalo_Frio.jpeg",
+        "preco": 3
     },
     {
         "id": 8,
         "nome": "Balsamo Labial Volume",
-        "imagem": "imagens/Balsamo_Labial_Volume.jpeg"
+        "imagem": "imagens/Balsamo_Labial_Volume.jpeg",
+        "preco": 15
     },
     {
         "id": 9,
         "nome": "Biotina Gomas",
-        "imagem": "imagens/Biotina_Gomas.jpeg"
+        "imagem": "imagens/Biotina_Gomas.jpeg",
+        "preco": 15
     },
     {
         "id": 10,
         "nome": "Body Set Adorable",
-        "imagem": "imagens/Body_Set_Adorable.jpeg"
+        "imagem": "imagens/Body_Set_Adorable.jpeg",
+        "preco": 5.25
     },
     {
         "id": 11,
         "nome": "Body Set Blossom",
-        "imagem": "imagens/Body_Set_Blossom.jpeg"
+        "imagem": "imagens/Body_Set_Blossom.jpeg",
+        "preco": 5.25
     },
     {
         "id": 12,
         "nome": "Body Set Desire",
-        "imagem": "imagens/Body_Set_Desire.jpeg"
+        "imagem": "imagens/Body_Set_Desire.jpeg",
+        "preco": 5.25
     },
     {
         "id": 13,
         "nome": "Body Set Elegance",
-        "imagem": "imagens/Body_Set_Elegance.jpeg"
+        "imagem": "imagens/Body_Set_Elegance.jpeg",
+        "preco": 5.25
     },
     {
         "id": 14,
         "nome": "Body Set Mystery",
-        "imagem": "imagens/Body_Set_Mystery.jpeg"
+        "imagem": "imagens/Body_Set_Mystery.jpeg",
+        "preco": 5.25
     },
     {
         "id": 15,
         "nome": "Body Set Seductive",
-        "imagem": "imagens/Body_Set_Seductive.jpeg"
+        "imagem": "imagens/Body_Set_Seductive.jpeg",
+        "preco": 5.25
     },
     {
         "id": 16,
         "nome": "Branqueador Dental Tiras",
-        "imagem": "imagens/Branqueador_dental_tiras.jpeg"
+        "imagem": "imagens/Branqueador_dental_tiras.jpeg",
+        "preco": 5.10
     },
     {
         "id": 17,
         "nome": "Calendula Gel",
-        "imagem": "imagens/Calendula_Gel.jpeg"
+        "imagem": "imagens/Calendula_Gel.jpeg",
+        "preco": 3
     },
     {
         "id": 18,
         "nome": "Centelha Asiatica Creme Premium",
-        "imagem": "imagens/Centelha_Asiatica_Creme_Premium.jpeg"
+        "imagem": "imagens/Centelha_Asiatica_Creme_Premium.jpeg",
+        "preco": 8.99
     },
     {
         "id": 19,
         "nome": "Colutorio Halito Fresco",
-        "imagem": "imagens/Colutorio_Halito_Fresco.jpeg"
+        "imagem": "imagens/Colutorio_Halito_Fresco.jpeg",
+        "preco": 2.99
     },
     {
         "id": 20,
         "nome": "Colutorio Halito Fresco2",
-        "imagem": "imagens/Colutorio_Halito_Fresco2.jpeg"
+        "imagem": "imagens/Colutorio_Halito_Fresco2.jpeg",
+        "preco": 2.99
     },
     {
         "id": 21,
         "nome": "Creme Maos Frutos",
-        "imagem": "imagens/Creme_Maos_Frutos.jpeg"
+        "imagem": "imagens/Creme_Maos_Frutos.jpeg",
+        "preco": 2.50
     },
     {
         "id": 22,
         "nome": "Cuidado Hidratacao Firmeza Rosto",
-        "imagem": "imagens/Cuidado_Hidratacao_Firmeza_Rosto.jpeg"
+        "imagem": "imagens/Cuidado_Hidratacao_Firmeza_Rosto.jpeg",
+        "preco": 13.90
     },
     {
         "id": 23,
         "nome": "Cute Lover Bloomimg",
-        "imagem": "imagens/Cute_Lover_Bloomimg.jpeg"
+        "imagem": "imagens/Cute_Lover_Bloomimg.jpeg",
+        "preco": 5.25
     },
     {
         "id": 24,
         "nome": "Cute Lover Kit Beleza",
-        "imagem": "imagens/Cute_Lover_Kit_Beleza.jpeg"
+        "imagem": "imagens/Cute_Lover_Kit_Beleza.jpeg",
+        "preco": 5.25
     },
     {
         "id": 25,
         "nome": "Cute Lover Marshmallow",
-        "imagem": "imagens/Cute_Lover_Marshmallow.jpeg"
+        "imagem": "imagens/Cute_Lover_Marshmallow.jpeg",
+        "preco": 5.25
     },
     {
         "id": 26,
         "nome": "Cute Lover Morango",
-        "imagem": "imagens/Cute_Lover_Morango.jpeg"
+        "imagem": "imagens/Cute_Lover_Morango.jpeg",
+        "preco": 5.25
     },
     {
         "id": 27,
         "nome": "Gel Banho Argao Baunilha",
-        "imagem": "imagens/Gel_Banho_Argao_Baunilha.jpeg"
+        "imagem": "imagens/Gel_Banho_Argao_Baunilha.jpeg",
+        "preco": 0.0
     },
     {
         "id": 28,
         "nome": "Gel Banho Coco",
-        "imagem": "imagens/Gel_Banho_Coco.jpeg"
+        "imagem": "imagens/Gel_Banho_Coco.jpeg",
+        "preco": 0.0
     },
     {
         "id": 29,
         "nome": "Gel Banho Monoi",
-        "imagem": "imagens/Gel_Banho_Monoi.jpeg"
+        "imagem": "imagens/Gel_Banho_Monoi.jpeg",
+        "preco": 0.0
     },
     {
         "id": 30,
         "nome": "Gel Banho Talco",
-        "imagem": "imagens/Gel_Banho_Talco.jpeg"
+        "imagem": "imagens/Gel_Banho_Talco.jpeg",
+        "preco": 0.0
     },
     {
         "id": 31,
         "nome": "Gel Limpeza Facial",
-        "imagem": "imagens/Gel_Limpeza_Facial.jpeg"
+        "imagem": "imagens/Gel_Limpeza_Facial.jpeg",
+        "preco": 11.95
     },
     {
         "id": 32,
         "nome": "Insensos",
-        "imagem": "imagens/Insensos.jpeg"
+        "imagem": "imagens/Insensos.jpeg",
+        "preco": 1.50
     },
     {
         "id": 33,
         "nome": "Kailinya Creme Coreano",
-        "imagem": "imagens/Kailinya_creme_coreano.jpeg"
+        "imagem": "imagens/Kailinya_creme_coreano.jpeg",
+        "preco": 7.90
     },
     {
         "id": 34,
         "nome": "Kit Beija Flor",
-        "imagem": "imagens/Kit_Beija_Flor.jpeg"
+        "imagem": "imagens/Kit_Beija_Flor.jpeg",
+        "preco": 19.99
     },
     {
         "id": 35,
         "nome": "Kit Compacto",
-        "imagem": "imagens/Kit_Compacto.jpeg"
+        "imagem": "imagens/Kit_Compacto.jpeg",
+        "preco": 5
     },
     {
         "id": 36,
         "nome": "Kit Rich Man",
-        "imagem": "imagens/Kit_Rich_Man.jpeg"
+        "imagem": "imagens/Kit_Rich_Man.jpeg",
+        "preco": 5.25
     },
     {
         "id": 37,
         "nome": "Kit Sol Janeiro",
-        "imagem": "imagens/Kit_Sol_Janeiro.jpeg"
+        "imagem": "imagens/Kit_Sol_Janeiro.jpeg",
+        "preco": 19.99
     },
     {
         "id": 38,
         "nome": "Kit Viagem Brilho",
-        "imagem": "imagens/Kit_Viagem_Brilho.jpeg"
+        "imagem": "imagens/Kit_Viagem_Brilho.jpeg",
+        "preco": 19.99
     },
     {
         "id": 39,
         "nome": "Kit Viagem Bum Bum",
-        "imagem": "imagens/Kit_Viagem_Bum_Bum.jpeg"
+        "imagem": "imagens/Kit_Viagem_Bum_Bum.jpeg",
+        "preco": 19.99
     },
     {
         "id": 40,
         "nome": "Linha Capilar Kids",
-        "imagem": "imagens/Linha_Capilar_Kids.jpeg"
+        "imagem": "imagens/Linha_Capilar_Kids.jpeg",
+        "preco": 15
     },
     {
         "id": 41,
         "nome": "Mascara Colageneo Facial",
-        "imagem": "imagens/Mascara_Colageneo_facial.jpeg"
+        "imagem": "imagens/Mascara_Colageneo_facial.jpeg",
+        "preco": 12.99
     },
     {
         "id": 42,
         "nome": "Mascara Labial",
-        "imagem": "imagens/Mascara_Labial.jpeg"
+        "imagem": "imagens/Mascara_Labial.jpeg",
+        "preco": 5.25
     },
     {
         "id": 43,
         "nome": "Mascara Refrescante",
-        "imagem": "imagens/Mascara_Refrescante.jpeg"
+        "imagem": "imagens/Mascara_Refrescante.jpeg",
+        "preco": 7.25
     },
     {
         "id": 44,
         "nome": "Melatonina Gomas",
-        "imagem": "imagens/Melatonina_Gomas.jpeg"
+        "imagem": "imagens/Melatonina_Gomas.jpeg",
+        "preco": 15
     },
     {
         "id": 45,
         "nome": "Multivitaminas Gomas",
-        "imagem": "imagens/Multivitaminas_Gomas.jpeg"
+        "imagem": "imagens/Multivitaminas_Gomas.jpeg",
+        "preco": 15
     },
     {
         "id": 46,
         "nome": "Niacinamida Creme Premium",
-        "imagem": "imagens/Niacinamida_Creme_Premium.jpeg"
+        "imagem": "imagens/Niacinamida_Creme_Premium.jpeg",
+        "preco": 8.99
     },
     {
         "id": 47,
         "nome": "Niacinamida Gel",
-        "imagem": "imagens/Niacinamida_Gel.jpeg"
+        "imagem": "imagens/Niacinamida_Gel.jpeg",
+        "preco": 13.90
     },
     {
         "id": 48,
         "nome": "Oleo Labial",
-        "imagem": "imagens/Oleo_Labial.jpeg"
+        "imagem": "imagens/Oleo_Labial.jpeg",
+        "preco": 4
     },
     {
         "id": 49,
         "nome": "Paleta Sombras",
-        "imagem": "imagens/Paleta_sombras.jpeg"
+        "imagem": "imagens/Paleta_sombras.jpeg",
+        "preco": 17.99
     },
     {
         "id": 50,
         "nome": "Perfume Aswad",
-        "imagem": "imagens/Perfume_Aswad.jpeg"
+        "imagem": "imagens/Perfume_Aswad.jpeg",
+        "preco": 10.99
     },
     {
         "id": 51,
         "nome": "Perfume Aswad2",
-        "imagem": "imagens/Perfume_Aswad2.jpeg"
+        "imagem": "imagens/Perfume_Aswad2.jpeg",
+        "preco": 10.99
     },
     {
         "id": 52,
         "nome": "Probioticos Gomas",
-        "imagem": "imagens/Probioticos_Gomas.jpeg"
+        "imagem": "imagens/Probioticos_Gomas.jpeg",
+        "preco": 15
     },
     {
         "id": 53,
         "nome": "Retinol Creme Premium",
-        "imagem": "imagens/Retinol_Creme_Premium.jpeg"
+        "imagem": "imagens/Retinol_Creme_Premium.jpeg",
+        "preco": 8.99
     },
     {
         "id": 54,
         "nome": "Retinol Shot",
-        "imagem": "imagens/Retinol_Shot.jpeg"
+        "imagem": "imagens/Retinol_Shot.jpeg",
+        "preco": 18.50
     },
     {
         "id": 55,
         "nome": "Sos Acne Creme",
-        "imagem": "imagens/SOS_Acne_creme.jpeg"
+        "imagem": "imagens/SOS_Acne_creme.jpeg",
+        "preco": 5.50
     },
     {
         "id": 56,
         "nome": "Serum Acido Hialuronico",
-        "imagem": "imagens/Serum_Acido_Hialuronico.jpeg"
+        "imagem": "imagens/Serum_Acido_Hialuronico.jpeg",
+        "preco": 9.99
     },
     {
         "id": 57,
         "nome": "Serum Antirrugas Peito",
-        "imagem": "imagens/Serum_Antirrugas_Peito.jpeg"
+        "imagem": "imagens/Serum_Antirrugas_Peito.jpeg",
+        "preco": 6.99
     },
     {
         "id": 58,
         "nome": "Serum Capilar",
-        "imagem": "imagens/Serum_Capilar.jpeg"
+        "imagem": "imagens/Serum_Capilar.jpeg",
+        "preco": 1.50
     },
     {
         "id": 59,
         "nome": "Serum Estrias Corpo",
-        "imagem": "imagens/Serum_Estrias_Corpo.jpeg"
+        "imagem": "imagens/Serum_Estrias_Corpo.jpeg",
+        "preco": 6.99
     },
     {
         "id": 60,
         "nome": "Serum Firmeza",
-        "imagem": "imagens/Serum_Firmeza.jpeg"
+        "imagem": "imagens/Serum_Firmeza.jpeg",
+        "preco": 9.99
     },
     {
         "id": 61,
         "nome": "Serum Niacinamida",
-        "imagem": "imagens/Serum_Niacinamida.jpeg"
+        "imagem": "imagens/Serum_Niacinamida.jpeg",
+        "preco": 9.99
     },
     {
         "id": 62,
         "nome": "Serum Pink Peptidos",
-        "imagem": "imagens/Serum_Pink_Peptidos.jpeg"
+        "imagem": "imagens/Serum_Pink_Peptidos.jpeg",
+        "preco": 9.99
     },
     {
         "id": 63,
         "nome": "Serum Reafirmante Corpo",
-        "imagem": "imagens/Serum_Reafirmante_Corpo.jpeg"
+        "imagem": "imagens/Serum_Reafirmante_Corpo.jpeg",
+        "preco": 6.99
     },
     {
         "id": 64,
         "nome": "Shampo Abacate",
-        "imagem": "imagens/Shampo_Abacate.jpeg"
+        "imagem": "imagens/Shampo_Abacate.jpeg",
+        "preco": 14
     },
     {
         "id": 65,
         "nome": "Shampo Antiqueda",
-        "imagem": "imagens/Shampo_AntiQueda.jpeg"
+        "imagem": "imagens/Shampo_AntiQueda.jpeg",
+        "preco": 14
     },
     {
         "id": 66,
         "nome": "Shampo Coco",
-        "imagem": "imagens/Shampo_Coco.jpeg"
+        "imagem": "imagens/Shampo_Coco.jpeg",
+        "preco": 14
     },
     {
         "id": 67,
         "nome": "Shampo Lisos",
-        "imagem": "imagens/Shampo_Lisos.jpeg"
+        "imagem": "imagens/Shampo_Lisos.jpeg",
+        "preco": 14
     },
     {
         "id": 68,
         "nome": "Shampo Neutro",
-        "imagem": "imagens/Shampo_Neutro.jpeg"
+        "imagem": "imagens/Shampo_Neutro.jpeg",
+        "preco": 14
     },
     {
         "id": 69,
         "nome": "Shampo Nutricao",
-        "imagem": "imagens/Shampo_Nutricao.jpeg"
+        "imagem": "imagens/Shampo_Nutricao.jpeg",
+        "preco": 14
     },
     {
         "id": 70,
         "nome": "Shampo Platino",
-        "imagem": "imagens/Shampo_Platino.jpeg"
+        "imagem": "imagens/Shampo_Platino.jpeg",
+        "preco": 14
     },
     {
         "id": 71,
         "nome": "Shampo Rapunzel",
-        "imagem": "imagens/Shampo_Rapunzel.jpeg"
+        "imagem": "imagens/Shampo_Rapunzel.jpeg",
+        "preco": 14
     },
     {
         "id": 72,
         "nome": "Shampo Revitalizante",
-        "imagem": "imagens/Shampo_Revitalizante.jpeg"
+        "imagem": "imagens/Shampo_Revitalizante.jpeg",
+        "preco": 14
     },
     {
         "id": 73,
         "nome": "Squishy Disney",
-        "imagem": "imagens/Squishy_Disney.jpeg"
+        "imagem": "imagens/Squishy_Disney.jpeg",
+        "preco": 3.5
     },
     {
         "id": 74,
         "nome": "Squishy Disney Bonecos",
-        "imagem": "imagens/Squishy_Disney_Bonecos.jpeg"
+        "imagem": "imagens/Squishy_Disney_Bonecos.jpeg",
+        "preco": 4
     },
     {
         "id": 75,
         "nome": "Squishy Fofos Bonecos",
-        "imagem": "imagens/Squishy_Fofos_Bonecos.jpeg"
+        "imagem": "imagens/Squishy_Fofos_Bonecos.jpeg",
+        "preco": 4
     },
     {
         "id": 76,
         "nome": "Squishy Homem Aranha",
-        "imagem": "imagens/Squishy_Homem_Aranha.jpeg"
+        "imagem": "imagens/Squishy_Homem_Aranha.jpeg",
+        "preco": 4
     },
     {
         "id": 77,
         "nome": "Squishy Premium",
-        "imagem": "imagens/Squishy_Premium.jpeg"
+        "imagem": "imagens/Squishy_Premium.jpeg",
+        "preco": 3.5
     },
     {
         "id": 78,
         "nome": "Toalhetes Humidos",
-        "imagem": "imagens/Toalhetes_Humidos.jpeg"
+        "imagem": "imagens/Toalhetes_Humidos.jpeg",
+        "preco": 1.95
     },
     {
         "id": 79,
         "nome": "Toalhitas Wc",
-        "imagem": "imagens/Toalhitas_WC.jpeg"
+        "imagem": "imagens/Toalhitas_WC.jpeg",
+        "preco": 3.50
     },
     {
         "id": 80,
         "nome": "Velas Aromaticas",
-        "imagem": "imagens/Velas_Aromaticas.jpeg"
+        "imagem": "imagens/Velas_Aromaticas.jpeg",
+        "preco": 1.75
     },
     {
         "id": 81,
         "nome": "Vitaminas Cabelo Pele Unhas Gomas",
-        "imagem": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
+        "imagem": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg",
+        "preco": 15
     }
 ]

@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "rgvVKcxU",
+  "version": "s6Oh+Msa",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-Ej9KDWfHFgBVZrVAh0CT3O5UWW5Co0S+/2Zao7IbTVc=",
-      "url": "_framework/CatalogoPWA.ae9ahgc9kv.wasm"
+      "hash": "sha256-t1tq3t16Ii04uMq579cgSjx46fxLcOl6hmSsnHOojg8=",
+      "url": "_framework/CatalogoPWA.3xtxqfhp0d.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -150,16 +150,16 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.w3qd1tpl0e.js"
     },
     {
+      "hash": "sha256-CKGVSiSZ8U+OYBT2ZSQllt0UkWBWKNZTvKguhzuC+J0=",
+      "url": "_framework/dotnet.kh4drjugju.js"
+    },
+    {
       "hash": "sha256-hYigRhIZKHyCXxXWqL/yR3ZWzZhV2oSi+2N3/UPeoxk=",
       "url": "_framework/dotnet.native.nxw7lo0lh5.wasm"
     },
     {
       "hash": "sha256-RezASHv+dbqV50cFnld76YiLhk4B+BjMAKs/euUdNyE=",
       "url": "_framework/dotnet.native.vzj2a6aakt.js"
-    },
-    {
-      "hash": "sha256-Qke1XBLPjJtBQH9dJZV2pvVVHQ6T4X4wavLUQXf74Ac=",
-      "url": "_framework/dotnet.q2u46su9uz.js"
     },
     {
       "hash": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
@@ -846,7 +846,7 @@ self.assetsManifest = {
       "url": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
     },
     {
-      "hash": "sha256-v7i9V5i6YGLgiuENaDaeFuf5VvuwYylzxtG6QLiGm0A=",
+      "hash": "sha256-yAH5EczWn/MYKseLT5kSLxllNAt+jaWjWCTd+IN9UeA=",
       "url": "index.html"
     },
     {
@@ -1030,7 +1030,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-Pj74ZOGwvPFiGYknj5PCe87jDGMPFbRQhBIRAtXFXgU=",
+      "hash": "sha256-WQeAnyAMjCmy8Al/+Q0nz+qi+Gulu7l1Nek8LykFtJk=",
       "url": "produtos.json"
     },
     {
