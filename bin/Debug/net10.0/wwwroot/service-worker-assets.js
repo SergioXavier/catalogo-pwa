@@ -1,17 +1,17 @@
 self.assetsManifest = {
-  "version": "LVAQktBe",
+  "version": "skX3Jx/Z",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-oQV51bJXZp0KmoyvF+9+utWr10TfFqVaqUJqGMW3FzA=",
-      "url": "_framework/CatalogoPWA.5jzzfal9o0.wasm"
+      "hash": "sha256-1OdOmASnQq+qthY1ZVUx48ZTyFi/ZKl1B8KF3y3V1HE=",
+      "url": "_framework/CatalogoPWA.c0yc9u8eud.wasm"
     },
     {
-      "hash": "sha256-Kj0N8AUwPkzYzNBtDeG8dXoRsdYj9ZRCcLeFQiCNMpA=",
-      "url": "_framework/CatalogoPWA.ua1xe0br6y.pdb"
+      "hash": "sha256-HaemI53xH67s7U+EU+DPhON0Dffc5FD4WpfQAuf465Q=",
+      "url": "_framework/CatalogoPWA.jozxeytrn1.pdb"
     },
     {
       "hash": "sha256-gqucMFIuVF5boR/O3y/viDH5uyXJvkbdVMJrE9N+f00=",
@@ -814,10 +814,6 @@ self.assetsManifest = {
       "url": "_framework/dotnet.js.map"
     },
     {
-      "hash": "sha256-XXdmKaNTyBlWF4LSZpolnQg3oOxsKbgIqBk1NpgpnZY=",
-      "url": "_framework/dotnet.lqu39876dn.js"
-    },
-    {
       "hash": "sha256-hYigRhIZKHyCXxXWqL/yR3ZWzZhV2oSi+2N3/UPeoxk=",
       "url": "_framework/dotnet.native.nxw7lo0lh5.wasm"
     },
@@ -832,6 +828,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
       "url": "_framework/dotnet.runtime.zbexyp8zrs.js"
+    },
+    {
+      "hash": "sha256-1sCkX4tnGX74UBIUsUdPzFC17rjqIsY5EHzKPmyeS4M=",
+      "url": "_framework/dotnet.unts61lktv.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -1522,7 +1522,7 @@ self.assetsManifest = {
       "url": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
     },
     {
-      "hash": "sha256-X18hQ7NasKrq2XDJ++FwPYM9teunb7zSQ7bCfsV/C58=",
+      "hash": "sha256-NKCMwk/ubOcLV4fTtvNuDr5CuoI/7QVZId8pB/lYh1U=",
       "url": "index.html"
     },
     {
@@ -1706,7 +1706,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-Pj74ZOGwvPFiGYknj5PCe87jDGMPFbRQhBIRAtXFXgU=",
+      "hash": "sha256-NIlSxZzG1pBK8+X9/5OB4MNMHRkP3Yt/hdw1NX4U1sk=",
       "url": "produtos.json"
     },
     {
