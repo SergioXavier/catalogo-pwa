@@ -1,17 +1,17 @@
 self.assetsManifest = {
-  "version": "skX3Jx/Z",
+  "version": "GYhITdr3",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-1OdOmASnQq+qthY1ZVUx48ZTyFi/ZKl1B8KF3y3V1HE=",
-      "url": "_framework/CatalogoPWA.c0yc9u8eud.wasm"
+      "hash": "sha256-dHtZsn2YaVQ0WsCE24y151gBk+zxmKdLenNtQ9VVodM=",
+      "url": "_framework/CatalogoPWA.gddbb669tw.pdb"
     },
     {
-      "hash": "sha256-HaemI53xH67s7U+EU+DPhON0Dffc5FD4WpfQAuf465Q=",
-      "url": "_framework/CatalogoPWA.jozxeytrn1.pdb"
+      "hash": "sha256-SEm0KImaMvFzieA8FrFCnI45Xq8G6w9od0JsLrARc+U=",
+      "url": "_framework/CatalogoPWA.owjyoee3yg.wasm"
     },
     {
       "hash": "sha256-gqucMFIuVF5boR/O3y/viDH5uyXJvkbdVMJrE9N+f00=",
@@ -810,6 +810,10 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.w3qd1tpl0e.js"
     },
     {
+      "hash": "sha256-WdocAkKSeY+RfTjhExPDMX/vuhb74kFSm7EnmkoLMO0=",
+      "url": "_framework/dotnet.fmgy9x1rlk.js"
+    },
+    {
       "hash": "sha256-gkQ8GxkWyh0BLme64OuSZ0ABha5f8RfJ8n5+z0SaOJI=",
       "url": "_framework/dotnet.js.map"
     },
@@ -828,10 +832,6 @@ self.assetsManifest = {
     {
       "hash": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
       "url": "_framework/dotnet.runtime.zbexyp8zrs.js"
-    },
-    {
-      "hash": "sha256-1sCkX4tnGX74UBIUsUdPzFC17rjqIsY5EHzKPmyeS4M=",
-      "url": "_framework/dotnet.unts61lktv.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -854,7 +854,7 @@ self.assetsManifest = {
       "url": "_framework/netstandard.8ql06rx5ae.wasm"
     },
     {
-      "hash": "sha256-OK3npBabD6nfgT2EBNmINQlSA+IQNkr2pwKhHxNnr9Q=",
+      "hash": "sha256-5bQ4Xg/F96zKte84pINrBJ/ZZtuLsZtjctBcfXwgy0Q=",
       "url": "css/app.css"
     },
     {
@@ -1522,7 +1522,7 @@ self.assetsManifest = {
       "url": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
     },
     {
-      "hash": "sha256-NKCMwk/ubOcLV4fTtvNuDr5CuoI/7QVZId8pB/lYh1U=",
+      "hash": "sha256-nfmMqvme2wxq4mMdIkdRuovuArCwksU48+7KTyQsraI=",
       "url": "index.html"
     },
     {
@@ -1706,7 +1706,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-NIlSxZzG1pBK8+X9/5OB4MNMHRkP3Yt/hdw1NX4U1sk=",
+      "hash": "sha256-WQeAnyAMjCmy8Al/+Q0nz+qi+Gulu7l1Nek8LykFtJk=",
       "url": "produtos.json"
     },
     {

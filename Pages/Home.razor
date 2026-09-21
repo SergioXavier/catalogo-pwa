@@ -1,166 +1,309 @@
 ﻿@page "/"
 @inject HttpClient Http
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@using System.Net
 
-<PageTitle>Kikas e Bonitas - Catálogo</PageTitle>
-<div class="container text-center my-4">
-    <img src="imagens/Logo.jpeg"
-         alt="Logo"
-         class="img-fluid mb-3"
-         style="max-height: 120px;" />
+<PageTitle>Catálogo de Produtos</PageTitle>
 
-    <h1 class="display-5 fw-bold" style="color: #D4AF37;">
-        Catálogo Semanal
-    </h1>
+<!-- Botão Flutuante do Carrinho -->
+<button class="btn-carrinho-flutuante" @onclick="AbrirCarrinho">
+    🛒 Carrinho (@Carrinho.Sum(i => i.Quantidade))
+</button>
 
-    <p class="text-muted">
-        Consulte os nossos produtos mesmo sem internet!
-    </p>
-</div>
-
-@if (produtos == null)
-{
-    <div class="d-flex justify-content-center my-5">
-        <div class="spinner-border text-primary" role="status"></div>
+<div class="container my-4 text-center">
+    <!-- Logótipo com classe personalizada -->
+    <div class="mb-3">
+        <img src="imagens/Logo.jpeg" alt="Kikas & Bonitas" class="logo-cabecalho" />
     </div>
-}
-else
-{
-    <div class="container mb-4">
-        <div class="card shadow-sm p-3">
-            <h5 class="fw-bold mb-3">Pesquisar produtos</h5>
 
-            <div class="row g-2">
+    <!-- Título com cor dourada e tamanho ajustado -->
+    <h2 class="titulo-catalogo">Catálogo Semanal</h2>
+    <p class="text-muted small">Consulte os nossos produtos mesmo sem internet!</p>
 
-            <!-- Nome -->
+    <!-- Painel de Pesquisa de Produtos -->
+    <div class="card p-3 mb-4 shadow-sm">
+        <h5 class="fw-bold mb-3">Pesquisar produtos</h5>
+        <div class="row g-2 align-items-end">
             <div class="col-12 col-md-4">
-                <label class="form-label">Nome</label>
-                <input type="text"
-                       class="form-control"
-                       placeholder="Pesquisar por nome..."
-                       @bind="filtroNome"
-                       @bind:event="oninput" />
+                <label class="form-label small fw-bold">Nome</label>
+                <input class="form-control" placeholder="Pesquisar por nome..." @bind="termoPesquisa" @bind:event="oninput" />
             </div>
-
-            <!-- Categoria -->
             <div class="col-12 col-md-3">
-                <label class="form-label">Categoria</label>
-                <select class="form-select" @bind="filtroCategoria">
+                <label class="form-label small fw-bold">Categoria</label>
+                <select class="form-select" @bind="categoriaSelecionada">
                     <option value="">Todas as categorias</option>
-
-                    @foreach (var categoria in Categorias)
+                    @foreach (var cat in categorias)
                     {
-                        <option value="@categoria">@categoria</option>
+                        <option value="@cat">@cat</option>
                     }
                 </select>
             </div>
-
-            <!-- Preço mínimo -->
             <div class="col-6 col-md-2">
-                <label class="form-label">Preço mín.</label>
-                <input type="number"
-                       class="form-control"
-                       placeholder="0,00"
-                       step="0.01"
-                       @bind="precoMinimo" />
+                <label class="form-label small fw-bold">Preço mín.</label>
+                <input type="number" class="form-control" step="0.01" @bind="precoMinimo" />
             </div>
-
-            <!-- Preço máximo -->
             <div class="col-6 col-md-2">
-                <label class="form-label">Preço máx.</label>
-                <input type="number"
-                       class="form-control"
-                       placeholder="999,99"
-                       step="0.01"
-                       @bind="precoMaximo" />
+                <label class="form-label small fw-bold">Preço máx.</label>
+                <input type="number" class="form-control" step="0.01" @bind="precoMaximo" />
             </div>
-
-            <!-- Limpar -->
-            <div class="col-12 col-md-1 d-flex align-items-end">
-                <button class="btn btn-outline-secondary w-100"
-                        @onclick="LimparFiltros">
-                    Limpar
-                </button>
+            <div class="col-12 col-md-1">
+                <button class="btn btn-outline-secondary w-100" @onclick="LimparFiltros">Limpar</button>
             </div>
-
         </div>
     </div>
-</div>
-    <div class="row row-cols-2 row-cols-md-4 g-3 p-2">
-        @foreach (var prod in ProdutosFiltrados)
-        {
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <img src="@prod.Imagem" class="card-img-top produto-imagem" alt="@prod.Nome" />
-                    <div class="card-body d-flex flex-column justify-content-between p-2">
-                        <h6 class="card-title text-dark m-0 text-truncate">@prod.Nome</h6>
-                        <p class="card-text fw-bold text m-0 mt-1">Categoria: @prod.Categoria</p>
-                        <p class="card-text fw-bold text-success m-0 mt-1">@prod.Preco.ToString("C")</p>
+
+    @if (produtos == null)
+    {
+        <p class="text-center"><em>A carregar produtos...</em></p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var prod in ProdutosFiltrados)
+            {
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@prod.Imagem" class="card-img-top p-2" alt="@prod.Nome" style="height: 200px; object-fit: contain;" />
+                        
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h6 class="card-title text-truncate" title="@prod.Nome">@prod.Nome</h6>
+                                <p class="card-text fw-bold text-success">@prod.Preco.ToString("C2")</p>
+                            </div>
+                            <button class="btn btn-primary btn-sm w-100 mt-2" @onclick="() => AdicionarAoCarrinho(prod)">
+                                ➕ Adicionar
+                            </button>
+                        </div>
                     </div>
                 </div>
+            }
+        </div>
+    }
+</div>
+
+<!-- Modal do Carrinho de Compras -->
+@if (mostrarModal)
+{
+    <div class="carrinho-modal-overlay">
+        <div class="carrinho-modal-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="m-0">O Seu Pedido</h4>
+                <button type="button" class="btn-close" @onclick="FecharCarrinho"></button>
             </div>
-        }
+
+            @if (!Carrinho.Any())
+            {
+                <p class="text-center text-muted my-4">O seu carrinho está vazio.</p>
+            }
+            else
+            {
+                <ul class="list-group mb-3">
+                    @foreach (var item in Carrinho)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center gap-2">
+                            <!-- 🖼️ Imagem do Produto no Carrinho -->
+                            <img src="@item.Imagem" alt="@item.Nome" style="width: 48px; height: 48px; object-fit: contain; border-radius: 4px;" />
+
+                            <div style="flex: 1; min-width: 0;">
+                                <strong class="d-block text-truncate" title="@item.Nome">@item.Nome</strong>
+                                <small class="text-muted">@item.Preco.ToString("C2") / un</small>
+                            </div>
+                            
+                            <!-- Controlo de Quantidade (+ e -) -->
+                            <div class="d-flex align-items-center gap-1">
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <button type="button" class="btn btn-outline-secondary" @onclick="() => DecrementarQuantidade(item)">-</button>
+                                    <span class="btn btn-light disabled px-2 fw-bold text-dark">@item.Quantidade</span>
+                                    <button type="button" class="btn btn-outline-secondary" @onclick="() => IncrementarQuantidade(item)">+</button>
+                                </div>
+                                <span class="fw-bold ms-1" style="min-width: 55px; text-align: right; font-size: 0.9rem;">
+                                    @((item.Quantidade * item.Preco).ToString("C2"))
+                                </span>
+                                <button class="btn btn-sm btn-outline-danger ms-1" @onclick="() => RemoverDoCarrinho(item)">❌</button>
+                            </div>
+                        </li>
+                    }
+                </ul>
+
+                <div class="d-flex justify-content-between font-weight-bold mb-3">
+                    <h5>Total:</h5>
+                    <h5>@TotalCarrinho.ToString("C2")</h5>
+                </div>
+
+                <hr />
+
+                <!-- Formulário com Dados do Cliente -->
+                <h5 class="mb-3">Dados de Envio e Faturação</h5>
+                <div class="mb-2">
+                    <input class="form-control" placeholder="Nome Completo *" @bind="clienteNome" />
+                </div>
+                <div class="mb-2">
+                    <input class="form-control" placeholder="NIF" @bind="clienteNif" />
+                </div>
+                <div class="mb-2">
+                    <input class="form-control" placeholder="Morada de Entrega *" @bind="clienteMorada" />
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" placeholder="Código Postal (ex: 1000-000)" @bind="clienteCodPostal" />
+                </div>
+
+                <button class="btn btn-success w-100 py-2 fw-bold" @onclick="EnviarPedidoWhatsApp">
+                    📲 Enviar Pedido via WhatsApp
+                </button>
+            }
+        </div>
     </div>
 }
 
 @code {
-    private string filtroNome = string.Empty;
-private string filtroCategoria = string.Empty;
+    private const string NUMERO_WHATSAPP = "351933678098";
 
-private decimal? precoMinimo;
-private decimal? precoMaximo;
+    private Produto[]? produtos;
+    private List<ItemCarrinho> Carrinho = new();
+    private bool mostrarModal = false;
 
-private IEnumerable<Produto> ProdutosFiltrados =>
-    produtos?
-        .Where(p =>
-            (string.IsNullOrWhiteSpace(filtroNome) ||
-             p.Nome.Contains(filtroNome, StringComparison.OrdinalIgnoreCase))
+    private string clienteNome = "";
+    private string clienteNif = "";
+    private string clienteMorada = "";
+    private string clienteCodPostal = "";
+    // Variáveis para os filtros de pesquisa
+    private string termoPesquisa = "";
+    private string categoriaSelecionada = "";
+    private decimal? precoMinimo;
+    private decimal? precoMaximo;
 
-            &&
-
-            (string.IsNullOrWhiteSpace(filtroCategoria) ||
-             p.Categoria.Equals(filtroCategoria, StringComparison.OrdinalIgnoreCase))
-
-            &&
-
-            (!precoMinimo.HasValue ||
-             p.Preco >= precoMinimo.Value)
-
-            &&
-
-            (!precoMaximo.HasValue ||
-             p.Preco <= precoMaximo.Value)
-        )
-        ?? Enumerable.Empty<Produto>();
-
-private IEnumerable<string> Categorias =>
-    produtos?
+    // Lista dinâmica com as categorias existentes
+    private IEnumerable<string> categorias => produtos?
         .Select(p => p.Categoria)
-        .Where(c => !string.IsNullOrWhiteSpace(c))
-        .Distinct()
-        .OrderBy(c => c)
-        ?? Enumerable.Empty<string>();
+        .Where(c => !string.IsNullOrEmpty(c))
+        .Distinct() ?? Enumerable.Empty<string>();
 
-private void LimparFiltros()
-{
-    filtroNome = string.Empty;
-    filtroCategoria = string.Empty;
-    precoMinimo = null;
-    precoMaximo = null;
-}
+    // Propriedade que filtra a lista automaticamente
+    private IEnumerable<Produto> ProdutosFiltrados => produtos?.Where(p =>
+        (string.IsNullOrWhiteSpace(termoPesquisa) || p.Nome.Contains(termoPesquisa, StringComparison.OrdinalIgnoreCase)) &&
+        (string.IsNullOrWhiteSpace(categoriaSelecionada) || p.Categoria == categoriaSelecionada) &&
+        (!precoMinimo.HasValue || p.Preco >= precoMinimo.Value) &&
+        (!precoMaximo.HasValue || p.Preco <= precoMaximo.Value)
+    ) ?? Enumerable.Empty<Produto>();
 
-    private List<Produto>? produtos;
-    protected override async Task OnInitializedAsync()
+    private void LimparFiltros()
     {
-        //O Blazor lê o ficheiro local. A PWA encarrega-se de o guardar em cache offline.
-        produtos = await Http.GetFromJsonAsync<List<Produto>>("produtos.json");
+        termoPesquisa = "";
+        categoriaSelecionada = "";
+        precoMinimo = null;
+        precoMaximo = null;
     }
 
+    // Lembre-se de adicionar o campo Categoria na sua classe Produto:
     public class Produto
     {
-        public int Id {get; set;}
-        public string Nome {get; set;}=string.Empty;
-        public string Categoria {get; set;}=string.Empty;
-        public decimal Preco {get; set;}
-        public string Imagem {get; set;}=string.Empty;
+        public int Id { get; set; }
+        public string Nome { get; set; } = "";
+        public string Imagem { get; set; } = "";
+        public decimal Preco { get; set; }
+        public string Categoria { get; set; } = ""; // <--- Adicionado
+    }
+
+
+    private decimal TotalCarrinho => Carrinho.Sum(i => i.Quantidade * i.Preco);
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            produtos = await Http.GetFromJsonAsync<Produto[]>("produtos.json");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar produtos.json: {ex.Message}");
+        }
+    }
+
+    private void AdicionarAoCarrinho(Produto prod)
+    {
+        var item = Carrinho.FirstOrDefault(i => i.Id == prod.Id);
+        if (item != null)
+        {
+            item.Quantidade++;
+        }
+        else
+        {
+            Carrinho.Add(new ItemCarrinho 
+            { 
+                Id = prod.Id, 
+                Nome = prod.Nome, 
+                Imagem = prod.Imagem, 
+                Preco = prod.Preco, 
+                Quantidade = 1 
+            });
+        }
+    }
+
+    private void IncrementarQuantidade(ItemCarrinho item)
+    {
+        item.Quantidade++;
+    }
+
+    private void DecrementarQuantidade(ItemCarrinho item)
+    {
+        if (item.Quantidade > 1)
+        {
+            item.Quantidade--;
+        }
+        else
+        {
+            Carrinho.Remove(item);
+        }
+    }
+
+    private void RemoverDoCarrinho(ItemCarrinho item)
+    {
+        Carrinho.Remove(item);
+    }
+
+    private void AbrirCarrinho() => mostrarModal = true;
+    private void FecharCarrinho() => mostrarModal = false;
+
+    private async Task EnviarPedidoWhatsApp()
+    {
+        if (string.IsNullOrWhiteSpace(clienteNome) || string.IsNullOrWhiteSpace(clienteMorada))
+        {
+            return;
+        }
+
+        var listaLinhas = Carrinho.Select(i => Uri.EscapeDataString($"• {i.Quantidade}x {i.Nome} - {(i.Quantidade * i.Preco):C2}"));
+        var resumoProdutos = string.Join("%0A", listaLinhas);
+
+        var q = "%0A";
+
+        var mensagem = 
+            $"{Uri.EscapeDataString("*NOVO PEDIDO DO CATÁLOGO*")}{q}{q}" +
+            $"{Uri.EscapeDataString("*Produtos:*")}{q}" +
+            $"{resumoProdutos}{q}{q}" +
+            $"{Uri.EscapeDataString($"*Total:* {TotalCarrinho:C2}")}{q}{q}" +
+            $"{Uri.EscapeDataString("*Dados do Cliente:*")}{q}" +
+            $"{Uri.EscapeDataString($"• *Nome:* {clienteNome}")}{q}" +
+            $"{Uri.EscapeDataString($"• *NIF:* {(string.IsNullOrWhiteSpace(clienteNif) ? "Não indicado" : clienteNif)}")}{q}" +
+            $"{Uri.EscapeDataString($"• *Morada:* {clienteMorada}")}{q}" +
+            $"{Uri.EscapeDataString($"• *Código Postal:* {(string.IsNullOrWhiteSpace(clienteCodPostal) ? "Não indicado" : clienteCodPostal)}")}";
+
+        var url = $"https://wa.me/{NUMERO_WHATSAPP}?text={mensagem}";
+
+        // Abre o WhatsApp num novo separador sem fechar o catálogo PWA
+        await JS.InvokeVoidAsync("open", url, "_blank");
+
+        // Opcional: Limpa o carrinho e fecha a modal após enviar a encomenda
+        Carrinho.Clear();
+        FecharCarrinho();
+    }
+
+    public class ItemCarrinho
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; } = "";
+        public string Imagem { get; set; } = "";
+        public decimal Preco { get; set; }
+        public int Quantidade { get; set; }
     }
 }

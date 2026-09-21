@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "CatalogoPWA",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-wljRdeQ2V5ni1TIkk10VR+k9gZowp9ZokF4AfF/uWvc=",
+    "hash": "sha256-ziryNaWs3wF1SG/k0quvM9w5YsCOfg+ES4blTCN4BB8=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.vzj2a6aakt.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "CatalogoPWA.wasm",
-        "name": "CatalogoPWA.c0yc9u8eud.wasm",
-        "hash": "sha256-1OdOmASnQq+qthY1ZVUx48ZTyFi/ZKl1B8KF3y3V1HE=",
+        "name": "CatalogoPWA.owjyoee3yg.wasm",
+        "hash": "sha256-SEm0KImaMvFzieA8FrFCnI45Xq8G6w9od0JsLrARc+U=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "CatalogoPWA.pdb",
-        "name": "CatalogoPWA.jozxeytrn1.pdb",
-        "hash": "sha256-HaemI53xH67s7U+EU+DPhON0Dffc5FD4WpfQAuf465Q=",
+        "name": "CatalogoPWA.gddbb669tw.pdb",
+        "hash": "sha256-dHtZsn2YaVQ0WsCE24y151gBk+zxmKdLenNtQ9VVodM=",
         "cache": "force-cache"
       }
     ],
