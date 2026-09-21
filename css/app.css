@@ -120,3 +120,59 @@ code {
     object-fit: contain;
     display: block;
 }
+
+/* Limita o tamanho do logótipo para não ficar demasiado grande */
+.logo-cabecalho {
+    max-width: 300px; /* Ajuste este valor se preferir maior ou menor */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Define a cor dourada original para o título */
+.titulo-catalogo {
+    color: #d4af37; /* Tom dourado */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Estilos do Carrinho Flutuante e Modal */
+.btn-carrinho-flutuante {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1050;
+    cursor: pointer;
+}
+
+.carrinho-modal-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    z-index: 1060;
+}
+
+.carrinho-modal-card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 85vh;
+    overflow-y: auto;
+}
