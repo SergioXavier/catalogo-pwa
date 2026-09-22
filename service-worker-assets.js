@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "xxQJDCco",
+  "version": "fUD6ERF8",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-cEvBBxHoiDKahbmcBqqPkUk/KieDoiBAfvfunwsfE58=",
-      "url": "_framework/CatalogoPWA.c5xbokdy2s.wasm"
+      "hash": "sha256-lTpmOXhEf0mGa5wDvhAqb8ojiQroQNRTuO+HqTHLbak=",
+      "url": "_framework/CatalogoPWA.jua267qpo0.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -158,12 +158,12 @@ self.assetsManifest = {
       "url": "_framework/dotnet.native.vzj2a6aakt.js"
     },
     {
-      "hash": "sha256-V3knlAisQ8NN1gHwurD1gxfWpoEuADklKoLfjHxRfjM=",
-      "url": "_framework/dotnet.ngo2td8usd.js"
-    },
-    {
       "hash": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
       "url": "_framework/dotnet.runtime.zbexyp8zrs.js"
+    },
+    {
+      "hash": "sha256-jJ9R8zVoxxwO4zcTv82wndg6jP+IokjfPNPbTqpRfEs=",
+      "url": "_framework/dotnet.skm9t2g5an.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -846,7 +846,7 @@ self.assetsManifest = {
       "url": "imagens/Vitaminas_Cabelo_Pele_Unhas_Gomas.jpeg"
     },
     {
-      "hash": "sha256-9oo4J1Idi6zj18ghuhdDdeXpZbqR6Ryzad6wRZ05Z0I=",
+      "hash": "sha256-xJIZXQtp0+BGfXYY4WYBxlSbMwQkJwUUk6bmHoXcyqo=",
       "url": "index.html"
     },
     {
