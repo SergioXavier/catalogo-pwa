@@ -40,7 +40,9 @@ for nome_ficheiro in ficheiros:
     produtos.append({
         "id": len(produtos) + 1,
         "nome": nome_produto,
-        "imagem": f"imagens/{nome_ficheiro}"
+        "imagem": f"imagens/{nome_ficheiro}",
+        "preco": 0.00,
+        "categoria": 0
     })
 
 # Escrever o JSON

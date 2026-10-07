@@ -176,3 +176,14 @@ code {
     max-height: 85vh;
     overflow-y: auto;
 }
+
+.nome-produto-multi-linha {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita estritamente a 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 2.4rem; /* Garante que todos os cards mantêm a mesma altura de título mesmo se tiverem só 1 linha */
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+}

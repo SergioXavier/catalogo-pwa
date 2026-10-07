@@ -33,7 +33,7 @@
                 <label class="form-label small fw-bold">Categoria</label>
                 <select class="form-select" @bind="categoriaSelecionada">
                     <option value="">Todas as categorias</option>
-                    @foreach (var cat in categorias)
+                    @foreach (var cat in Enum.GetValues<CategoriaProduto>())
                     {
                         <option value="@cat">@cat</option>
                     }
@@ -68,7 +68,7 @@
                         
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div>
-                                <h6 class="card-title text-truncate" title="@prod.Nome">@prod.Nome</h6>
+                                <h6 class="card-title nome-produto-multi-linha" title="@prod.Nome">@prod.Nome</h6>
                                 <p class="card-text fw-bold text-success">@prod.Preco.ToString("C2")</p>
                             </div>
                             <button class="btn btn-primary btn-sm w-100 mt-2" @onclick="() => AdicionarAoCarrinho(prod)">
@@ -157,7 +157,7 @@
 }
 
 @code {
-    private const string NUMERO_WHATSAPP = "351933678098";
+    private const string NUMERO_WHATSAPP = "351962414603";
 
     private Produto[]? produtos;
     private List<ItemCarrinho> Carrinho = new();
@@ -169,20 +169,15 @@
     private string clienteCodPostal = "";
     // Variáveis para os filtros de pesquisa
     private string termoPesquisa = "";
-    private string categoriaSelecionada = "";
+    private CategoriaProduto? categoriaSelecionada;
     private decimal? precoMinimo;
     private decimal? precoMaximo;
 
-    // Lista dinâmica com as categorias existentes
-    private IEnumerable<string> categorias => produtos?
-        .Select(p => p.Categoria)
-        .Where(c => !string.IsNullOrEmpty(c))
-        .Distinct() ?? Enumerable.Empty<string>();
 
     // Propriedade que filtra a lista automaticamente
     private IEnumerable<Produto> ProdutosFiltrados => produtos?.Where(p =>
         (string.IsNullOrWhiteSpace(termoPesquisa) || p.Nome.Contains(termoPesquisa, StringComparison.OrdinalIgnoreCase)) &&
-        (string.IsNullOrWhiteSpace(categoriaSelecionada) || p.Categoria == categoriaSelecionada) &&
+        (!categoriaSelecionada.HasValue || p.Categoria == categoriaSelecionada.Value) &&
         (!precoMinimo.HasValue || p.Preco >= precoMinimo.Value) &&
         (!precoMaximo.HasValue || p.Preco <= precoMaximo.Value)
     ) ?? Enumerable.Empty<Produto>();
@@ -190,7 +185,7 @@
     private void LimparFiltros()
     {
         termoPesquisa = "";
-        categoriaSelecionada = "";
+        categoriaSelecionada = null;
         precoMinimo = null;
         precoMaximo = null;
     }
@@ -202,7 +197,7 @@
         public string Nome { get; set; } = "";
         public string Imagem { get; set; } = "";
         public decimal Preco { get; set; }
-        public string Categoria { get; set; } = ""; // <--- Adicionado
+        public CategoriaProduto Categoria { get; set; }
     }
 
 
@@ -305,5 +300,20 @@
         public string Imagem { get; set; } = "";
         public decimal Preco { get; set; }
         public int Quantidade { get; set; }
+    }
+
+    public enum CategoriaProduto
+    {
+        Capilares,
+        Faciais,
+        Corpo,
+        Higiene,
+        Maquiagem,
+        Perfumes,
+        Saúde,
+        PET,
+        Casa,
+        Auto,
+        Solares
     }
 }
