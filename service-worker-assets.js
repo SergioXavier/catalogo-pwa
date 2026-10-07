@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "ivCPnVmh",
+  "version": "F2GTZv00",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-a2BDqq4SOO19f8SsdZdkhf46oWE4B53iPPvBbZoeVnk=",
-      "url": "_framework/CatalogoPWA.fnyoje3ycy.wasm"
+      "hash": "sha256-Ma7WcGbpiwt9HiVh99X5yJgtaebsg//MwQ1cVlX1GMc=",
+      "url": "_framework/CatalogoPWA.pihylf5gx9.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -174,10 +174,6 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.w3qd1tpl0e.js"
     },
     {
-      "hash": "sha256-N2ObBTjaShYJ9LcLackObKVUIrqiB1XCIMBp/I85wig=",
-      "url": "_framework/dotnet.f2at71owvu.js"
-    },
-    {
       "hash": "sha256-jZddobLBM2C3lQhYQ61xSQJ/WqD3eQCO3RzoHGaOjx0=",
       "url": "_framework/dotnet.native.b6l13xorvf.js"
     },
@@ -188,6 +184,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-QbnqrZGHtGq7wudS17/AYEPpH9JkphrsyVllD6JHmds=",
       "url": "_framework/dotnet.runtime.v06hirbjsv.js"
+    },
+    {
+      "hash": "sha256-44kUnQiJjCf2/qX3pS8Z0gUK8vk1DSxKFSjTj9yh0KI=",
+      "url": "_framework/dotnet.x7s9rdnbzf.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -279,7 +279,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-0UWD5QUpqJQIoWcGvp4tsdCdpgTBOx1+g2iEUZp70eg=",
-      "url": "imagens/Anua Heartleaf 70% creme Hidratacao Profunda.jpeg"
+      "url": "imagens/Anua Heartleaf creme Hidratacao Profunda.jpeg"
     },
     {
       "hash": "sha256-ayEw9kaSstteCRUbo5/VEkLT7DzqgyXFSC9aP/FpnPU=",
@@ -1538,7 +1538,7 @@ self.assetsManifest = {
       "url": "imagens/Wokali Shampoo Barra Revitalizante.jpeg"
     },
     {
-      "hash": "sha256-kEBWCZbhbqUVXhW5k25xcZdJdYp9IH7cU4op1s5yBFM=",
+      "hash": "sha256-mNCtVYpSXLBHKPYGOKZ23b+rSK0DzdEu8Ar+2S5pmo4=",
       "url": "index.html"
     },
     {
@@ -1722,7 +1722,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-EZzzFbhk7+w3W2pfocV79jcUX26Yf3JzB1XzUmopb8c=",
+      "hash": "sha256-agdmKmm7m7f4Nf+1zyyYy7V6FU8Fu+hvmt5KbvVQi/4=",
       "url": "produtos.json"
     },
     {
