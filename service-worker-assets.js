@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "Fw4kCkCG",
+  "version": "ivCPnVmh",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-+ykcVKvt6odWHh7TJxb2CyUr4Rgo4y2hhsOVzdrA1Fk=",
-      "url": "_framework/CatalogoPWA.v7yvf74x49.wasm"
+      "hash": "sha256-a2BDqq4SOO19f8SsdZdkhf46oWE4B53iPPvBbZoeVnk=",
+      "url": "_framework/CatalogoPWA.fnyoje3ycy.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -174,8 +174,8 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.w3qd1tpl0e.js"
     },
     {
-      "hash": "sha256-DkYWIbQ3nigqgBK4LslYB9vh65zw8/XJ022cdZI4jks=",
-      "url": "_framework/dotnet.2vbgqfjq0w.js"
+      "hash": "sha256-N2ObBTjaShYJ9LcLackObKVUIrqiB1XCIMBp/I85wig=",
+      "url": "_framework/dotnet.f2at71owvu.js"
     },
     {
       "hash": "sha256-jZddobLBM2C3lQhYQ61xSQJ/WqD3eQCO3RzoHGaOjx0=",
@@ -838,10 +838,6 @@ self.assetsManifest = {
       "url": "imagens/Fruit Company Ambientador Auto Melao.jpeg"
     },
     {
-      "hash": "sha256-0t8X30jRVn5G6UUS/WDEIQn5pdNje+MOgaz/FU6Sv8o=",
-      "url": "imagens/Fruit Company Ambientador Casa Melancia.jpeg"
-    },
-    {
       "hash": "sha256-ErDF/UcslQe2IaIUL1punvtVxBhIN53eF3h3TVP+ssA=",
       "url": "imagens/Fruit Company Ambientador Micado Amora.jpeg"
     },
@@ -860,6 +856,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-4sPmtMLtkEiL7vSXQ2fiICChGZ7ItR44obDvaXR9ZzI=",
       "url": "imagens/Fruit Company Ambientador Micado Maca Verde.jpeg"
+    },
+    {
+      "hash": "sha256-0t8X30jRVn5G6UUS/WDEIQn5pdNje+MOgaz/FU6Sv8o=",
+      "url": "imagens/Fruit Company Ambientador Micado Melancia.jpeg"
     },
     {
       "hash": "sha256-Jl4cIaTqXqkqNZFre0VVJruoiyAmDKPLOV1nkJQVHw0=",
@@ -1499,7 +1499,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-4jb8oyu23+0Xk8EQPaMlG1xBkyDNy7HkXbzKXEZgCI0=",
-      "url": "imagens/Venshadi Paleta Sombras Reinos Mágicos.jpeg"
+      "url": "imagens/Venshadi Paleta Sombras Reinos Magicos.jpeg"
     },
     {
       "hash": "sha256-rpggK/c3ge3oahpILmBrhFD+n6rTJ0N1pB31rLZwRIQ=",
@@ -1538,7 +1538,7 @@ self.assetsManifest = {
       "url": "imagens/Wokali Shampoo Barra Revitalizante.jpeg"
     },
     {
-      "hash": "sha256-449LLG180QKzL6n/YpTEBF7gzu14H822vYyL+RXCMLU=",
+      "hash": "sha256-kEBWCZbhbqUVXhW5k25xcZdJdYp9IH7cU4op1s5yBFM=",
       "url": "index.html"
     },
     {
@@ -1722,7 +1722,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-iz44yMDJh2h547FYQ72AbOtZ5AKvuyRJ007n/nKBPCU=",
+      "hash": "sha256-EZzzFbhk7+w3W2pfocV79jcUX26Yf3JzB1XzUmopb8c=",
       "url": "produtos.json"
     },
     {
