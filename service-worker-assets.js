@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "Gtd//qwR",
+  "version": "Fw4kCkCG",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-IVnctcD8kCsHgs9fxAF42JDopcdq/2pvIh75nHedqRQ=",
-      "url": "_framework/CatalogoPWA.l7h0edmivc.wasm"
+      "hash": "sha256-+ykcVKvt6odWHh7TJxb2CyUr4Rgo4y2hhsOVzdrA1Fk=",
+      "url": "_framework/CatalogoPWA.v7yvf74x49.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -174,6 +174,10 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.w3qd1tpl0e.js"
     },
     {
+      "hash": "sha256-DkYWIbQ3nigqgBK4LslYB9vh65zw8/XJ022cdZI4jks=",
+      "url": "_framework/dotnet.2vbgqfjq0w.js"
+    },
+    {
       "hash": "sha256-jZddobLBM2C3lQhYQ61xSQJ/WqD3eQCO3RzoHGaOjx0=",
       "url": "_framework/dotnet.native.b6l13xorvf.js"
     },
@@ -184,10 +188,6 @@ self.assetsManifest = {
     {
       "hash": "sha256-QbnqrZGHtGq7wudS17/AYEPpH9JkphrsyVllD6JHmds=",
       "url": "_framework/dotnet.runtime.v06hirbjsv.js"
-    },
-    {
-      "hash": "sha256-vSE5kvNrNm4Vw1AcQJvESqE00kQkg6m8TPsFOrO+i8M=",
-      "url": "_framework/dotnet.xn6wwabwab.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -223,15 +223,15 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-mF31dE5mdMg2wu3bNciqvr0skX/VHT7ZjDp9Z1RjuWc=",
-      "url": "imagens/Acty Mask Anti Fadiga Máscara Pés.jpeg"
+      "url": "imagens/Acty Mask Anti Fadiga Mascara Pes.jpeg"
     },
     {
       "hash": "sha256-mPTYS1c9N2XVTaxylgG3WLBR8RlnSjpDwvcV2s1BtrE=",
-      "url": "imagens/Acty Mask Esfoliante Máscara Pés.jpeg"
+      "url": "imagens/Acty Mask Esfoliante Mascara Pes.jpeg"
     },
     {
       "hash": "sha256-N5GlL6R+nP6iChau30kAHDA1BXE9NrkFdgvVcD8YvQA=",
-      "url": "imagens/Acty Mask Máscara nutrireparadora Pés.jpeg"
+      "url": "imagens/Acty Mask Mascara nutrireparadora Pes.jpeg"
     },
     {
       "hash": "sha256-ijE8NEU38RbRxJ+lgH2SVc3G7oeEPo3XgVuZJNvup7A=",
@@ -239,7 +239,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-EX4at2eOkM66RO4AS8ehOedrmxuFQu4PvriQZTnlfqo=",
-      "url": "imagens/Ambar Incensos Citronela & Capim-Limão.jpeg"
+      "url": "imagens/Ambar Incensos Citronela & Capim-Limao.jpeg"
     },
     {
       "hash": "sha256-VVqpECNJ/YpHR5dWp3AoR1lL0y2z+sfGQkZozmVlviY=",
@@ -247,7 +247,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-tQLIkznl9mI2eIuCuArVQ3V79wWaFoAaqRMquSzlZtE=",
-      "url": "imagens/Ambar Incensos Rosa & Sândalo.jpeg"
+      "url": "imagens/Ambar Incensos Rosa & Sandalo.jpeg"
     },
     {
       "hash": "sha256-bqpMXVVqPitB6SfFvwox+11BrWxRlyu3SfK8m5RMvD0=",
@@ -262,32 +262,28 @@ self.assetsManifest = {
       "url": "imagens/Ambar Perfume Auto SPA.jpeg"
     },
     {
+      "hash": "sha256-YyhIxK10drakIzCzhtM3L53waoZi+KZRIzJ7OUEFSNo=",
+      "url": "imagens/Anua 10+ Serum Acido Azelaico & Acido Hialuronico.jpeg"
+    },
+    {
       "hash": "sha256-hD/m1gwveYwvcUleU3gYOk44QRW3TsSCX05fXNx8IJk=",
       "url": "imagens/Anua 10+ Serum Manchas Escuras.jpeg"
     },
     {
-      "hash": "sha256-YyhIxK10drakIzCzhtM3L53waoZi+KZRIzJ7OUEFSNo=",
-      "url": "imagens/Anua 10+ Serum Ácido Azelaico & Ácido Hialurónico.jpeg"
-    },
-    {
       "hash": "sha256-SJvcOi84DlFoWsl4ZpPzqePcnhadtumIbzHibBPE5F0=",
-      "url": "imagens/Anua 100+ Serum Ácido Hialurónico.jpeg"
-    },
-    {
-      "hash": "sha256-SJvcOi84DlFoWsl4ZpPzqePcnhadtumIbzHibBPE5F0=",
-      "url": "imagens/Anua 100+.jpeg"
+      "url": "imagens/Anua 100+ Serum Acido Hialuronico.jpeg"
     },
     {
       "hash": "sha256-YyhIxK10drakIzCzhtM3L53waoZi+KZRIzJ7OUEFSNo=",
-      "url": "imagens/Anua Azelaic Acid 10 + Hyaluron Sérum Calmante par.jpeg"
+      "url": "imagens/Anua Azelaic Acid 10 + Hyaluron Serum Calmante par.jpeg"
     },
     {
       "hash": "sha256-0UWD5QUpqJQIoWcGvp4tsdCdpgTBOx1+g2iEUZp70eg=",
-      "url": "imagens/Anua Heartleaf 70% creme Hidratação Profunda.jpeg"
+      "url": "imagens/Anua Heartleaf 70% creme Hidratacao Profunda.jpeg"
     },
     {
       "hash": "sha256-ayEw9kaSstteCRUbo5/VEkLT7DzqgyXFSC9aP/FpnPU=",
-      "url": "imagens/Anua Visibly Firming Retinol & Colágeno.jpeg"
+      "url": "imagens/Anua Visibly Firming Retinol & Colageno.jpeg"
     },
     {
       "hash": "sha256-jMIJEBwWNPTt9qvpTAQgzlI3iHXwPkj/obfT3m4953A=",
@@ -327,7 +323,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-132XoCrryvU3TH5w8F7qC7AtCKz8UI7hRhdZZWiAs+E=",
-      "url": "imagens/Aurea Máscara Labial Hidratante Ouro.jpeg"
+      "url": "imagens/Aurea Mascara Labial Hidratante Ouro.jpeg"
     },
     {
       "hash": "sha256-HQU3ZycVQxyDR48C3vFoyttxx7jc5eFAPK8XNIhR8uo=",
@@ -339,11 +335,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-xwYTKJDoddTsCibCSKy17iSmPjJrq95BUiy/pTreUAk=",
-      "url": "imagens/Beauty Paleta Sombras Melodias Cósmicas Stitch.jpeg"
-    },
-    {
-      "hash": "sha256-g30vsu7c3jPIfpuq6YgecbyyCMyEp9uZk4a1st/Cc3g=",
-      "url": "imagens/Biodance BIO COLLAGEN.jpeg"
+      "url": "imagens/Beauty Paleta Sombras Melodias Cosmicas Stitch.jpeg"
     },
     {
       "hash": "sha256-WtKaRbNxNcVm477Z4KpioiIiRZh/dGMjVm4vGp6c+pA=",
@@ -351,23 +343,27 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-g30vsu7c3jPIfpuq6YgecbyyCMyEp9uZk4a1st/Cc3g=",
-      "url": "imagens/Biodance Máscara Facial Hidrogel Bio-Colágeno.jpeg"
+      "url": "imagens/Biodance Mascara Facial Hidrogel Bio-Colageno.jpeg"
     },
     {
       "hash": "sha256-S9liC3D93y9zG5QoAqh5l+CyHpYMBqVAkHd+3LsMTYs=",
-      "url": "imagens/Biodance Máscara Facial Hidrogel.jpeg"
+      "url": "imagens/Biodance Mascara Facial Hidrogel.jpeg"
     },
     {
       "hash": "sha256-WtKaRbNxNcVm477Z4KpioiIiRZh/dGMjVm4vGp6c+pA=",
-      "url": "imagens/Biodance Máscara Facial Profunda Hydro Cera-nol .jpeg"
+      "url": "imagens/Biodance Mascara Facial Profunda Hydro Cera-nol .jpeg"
     },
     {
       "hash": "sha256-c+pb51dQkUC/Vaz7wHxUYRWD8FDDSWgaEig0H1qfwsw=",
-      "url": "imagens/Biodance Máscara Facial Refreshing Sea Kelp.jpeg"
+      "url": "imagens/Biodance Mascara Facial Refreshing Sea Kelp.jpeg"
     },
     {
       "hash": "sha256-9nCYC1OLqE2kLDCyE5yQVqgPxcXEpom2kjamqd76sAQ=",
       "url": "imagens/Bruma Intima Coco Cliche.jpeg"
+    },
+    {
+      "hash": "sha256-9nCYC1OLqE2kLDCyE5yQVqgPxcXEpom2kjamqd76sAQ=",
+      "url": "imagens/Bruma Intima Coco.jpeg"
     },
     {
       "hash": "sha256-tEP7iYCW+rQfECoCr5ShnewTe9a5wSJpGGVs5S876Fw=",
@@ -378,12 +374,8 @@ self.assetsManifest = {
       "url": "imagens/Bruma Intima Meu Bem Cliche.jpeg"
     },
     {
-      "hash": "sha256-9nCYC1OLqE2kLDCyE5yQVqgPxcXEpom2kjamqd76sAQ=",
-      "url": "imagens/Bruma Íntima Coco.jpeg"
-    },
-    {
       "hash": "sha256-tEP7iYCW+rQfECoCr5ShnewTe9a5wSJpGGVs5S876Fw=",
-      "url": "imagens/Bruma Íntima lima.jpeg"
+      "url": "imagens/Bruma Intima lima.jpeg"
     },
     {
       "hash": "sha256-shzyb1rPuoo0/DqEOAAd+xcZUGwnUi7e6CL3m26T2q0=",
@@ -431,23 +423,23 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-fxGM4hx9xBTjCuIY5ytM89ynnJDNmqRpdJYbGXulVkg=",
-      "url": "imagens/Cosmi Calêndula gel.jpeg"
+      "url": "imagens/Cosmi Calendula gel.jpeg"
     },
     {
       "hash": "sha256-tXx/vwEBYoZ2jls4cSxwcwzlQtnuZTDVes7wce/5i3I=",
-      "url": "imagens/Cosmi Colutório Oral Chá Verde.jpeg"
+      "url": "imagens/Cosmi Colutorio Oral Cha Verde.jpeg"
     },
     {
       "hash": "sha256-JjtH/oKR+yj7NkR5KoJ5iIiB+e3OzEsYAeafiyarJ98=",
-      "url": "imagens/Cosmi Colutório Oral Menta Fresca.jpeg"
+      "url": "imagens/Cosmi Colutorio Oral Menta Fresca.jpeg"
     },
     {
       "hash": "sha256-BMwUAkshVV0Hq7BTM0mOJQCflykZIRfAzyeqXwHFpBA=",
-      "url": "imagens/Cosmi Colutório Oral Mentol.jpeg"
+      "url": "imagens/Cosmi Colutorio Oral Mentol.jpeg"
     },
     {
       "hash": "sha256-+uksHY3ouoMg2VcSv9fVMNE9REA+cuvdtl4e1bRSmBw=",
-      "url": "imagens/Cosmi Colutório Oral Pêssego.jpeg"
+      "url": "imagens/Cosmi Colutorio Oral Pessego.jpeg"
     },
     {
       "hash": "sha256-707dXt9a+8Cvlo+C730LyLKCYWQQVLQfHe3kIpnmKmc=",
@@ -459,7 +451,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-pJYn8wOpxk+IiFZ9uX/aQMp5FoNGCtT/4pN+3scN9og=",
-      "url": "imagens/Cosmi Premium Creme Facial Centelha Asiatica Ácido Hialurónico.jpeg"
+      "url": "imagens/Cosmi Premium Creme Facial Centelha Asiatica Acido Hialuronico.jpeg"
     },
     {
       "hash": "sha256-DNQowV6k6NyggtqiGIkDrmd+wgIQmxShCPrsfmhQRW8=",
@@ -479,15 +471,15 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-eCpW8FRr87xRH76bkw8IdMobBwKYkWYKZuRIbPaO8x4=",
-      "url": "imagens/Cosmi creme Spot Anti Imperfeições.jpeg"
+      "url": "imagens/Cosmi creme Spot Anti Imperfeicoes.jpeg"
     },
     {
       "hash": "sha256-EFNowFGxJcQrxfUts63yOw0OnSpNPyQRN3Qgw/X0S0I=",
-      "url": "imagens/DDonna Bruma Corpo & Cabelo Shake  Edição Limitada.jpeg"
+      "url": "imagens/DDonna Bruma Corpo & Cabelo Shake  Edicao Limitada.jpeg"
     },
     {
       "hash": "sha256-YFPwYSTZ0MEZMBLXqoVFaqwNSPLD+vrHrqludr/9AUc=",
-      "url": "imagens/DDonna Bruma Corporal Edição Limitada Explosão Tropical.jpeg"
+      "url": "imagens/DDonna Bruma Corporal Edicao Limitada Explosao Tropical.jpeg"
     },
     {
       "hash": "sha256-7wJUqXpWjP5Sxn4mNzXJXL4s8vIT5P88vEb3mqK2Qyc=",
@@ -527,43 +519,43 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-+hVIFtKkZSYX7IF2A4Mkhh465SHVmy3oOoNbnyGvjWY=",
-      "url": "imagens/DDonna Loção Corporal Coleção Vanilla Ice Yummy Cream.jpeg"
-    },
-    {
-      "hash": "sha256-8heO56/7J6o3wmPNmUoyH7FHALdo3mRlCePXhdnePW0=",
-      "url": "imagens/DDonna Névoa COrporal Frutal Doce Gourmand.jpeg"
+      "url": "imagens/DDonna Locao Corporal Colecao Vanilla Ice Yummy Cream.jpeg"
     },
     {
       "hash": "sha256-meY1kiAutG3wMgDNt8UU8LSJFWRKC3QO20NMFR4KQ7M=",
-      "url": "imagens/DDonna Névoa Corporal Coleção Meloow Yummy.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Colecao Meloow Yummy.jpeg"
     },
     {
       "hash": "sha256-59Aj/wKMS0i2fbgc/o6EUj+txDm8XX+hocfIoQtyww0=",
-      "url": "imagens/DDonna Névoa Corporal Creme Brulee.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Creme Brulee.jpeg"
     },
     {
       "hash": "sha256-DXn+i2AT1HqfOd5Fql0d8wgqAXxShHFi//2rw3kmvFA=",
-      "url": "imagens/DDonna Névoa Corporal Edição Limitada Pistache.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Edicao Limitada Pistache.jpeg"
+    },
+    {
+      "hash": "sha256-8heO56/7J6o3wmPNmUoyH7FHALdo3mRlCePXhdnePW0=",
+      "url": "imagens/DDonna Nevoa Corporal Frutal Doce Gourmand.jpeg"
     },
     {
       "hash": "sha256-1pvVSQR/U6atqvO41o0RHWHmuLjZFYxPfjhCGHoJxXE=",
-      "url": "imagens/DDonna Névoa Corporal Perfumada Coleção Mardshmallow Shimmer.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Perfumada Colecao Mardshmallow Shimmer.jpeg"
     },
     {
       "hash": "sha256-XilK+CFCUv2QrJ8mIkc1J+DXxIn8725bBax5hQ5kCw0=",
-      "url": "imagens/DDonna Névoa Corporal Pinky Sweet Shimmer.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Pinky Sweet Shimmer.jpeg"
     },
     {
       "hash": "sha256-VX7QmnsimKpA3bFThVeYOjdG6qOECCsCwImJQ8XeNIo=",
-      "url": "imagens/DDonna Névoa Corporal Yummy Coconut Milk.jpeg"
+      "url": "imagens/DDonna Nevoa Corporal Yummy Coconut Milk.jpeg"
     },
     {
       "hash": "sha256-VUyHZPfm7vnHL4DBc4RtEddQx3ueDAcgv1/zkhWdh64=",
-      "url": "imagens/DDonna Névoa Perfumada Coleção Euphoria Lovers.jpeg"
+      "url": "imagens/DDonna Nevoa Perfumada Colecao Euphoria Lovers.jpeg"
     },
     {
       "hash": "sha256-rOnpxoJtb1Nz3OhzKJlkF/af/ePKBzKy3+P889qz68w=",
-      "url": "imagens/DDonna Névoa Perfumada Strawberry Coleção Yummy.jpeg"
+      "url": "imagens/DDonna Nevoa Perfumada Strawberry Colecao Yummy.jpeg"
     },
     {
       "hash": "sha256-OF5mRuOlXXyLeXbN5CfMG2U08fHeLpSGt0s2pC8XM8Q=",
@@ -603,7 +595,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-pNEoxm72rK3Il1g9gO511qafxz1jiOIbv29E9dVWWgQ=",
-      "url": "imagens/Daynee Colágeno Gomas.jpeg"
+      "url": "imagens/Daynee Colageno Gomas.jpeg"
     },
     {
       "hash": "sha256-etShAMnCav00aYcNcnDqjVWGoCoYqFPHux1HwrB0VvA=",
@@ -615,7 +607,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-KqanL5awOFTNjreP6Kr19q/9hXCgA/bcD0cPg1rC/dQ=",
-      "url": "imagens/Daynee Probióticos Gomas.jpeg"
+      "url": "imagens/Daynee Probioticos Gomas.jpeg"
     },
     {
       "hash": "sha256-glruCBzV/5D3YmbL/SE6GJWMOf0FBjURRtKe6fF01NU=",
@@ -627,75 +619,75 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-Q8lQPxYsi1kbzimmH/YoYRSODi/6kFbmckssiT9PZzU=",
-      "url": "imagens/Dispositivo Rejuvenescimento Pescoço.jpeg"
+      "url": "imagens/Dispositivo Rejuvenescimento Pescoco.jpeg"
     },
     {
       "hash": "sha256-huqbRlhL0XPiCvyhG+u+CLmAyEvpLzbj9/E0XdNA384=",
-      "url": "imagens/Dona Flor Profissional Linha Anticaída Premium.jpeg"
+      "url": "imagens/Dona Flor Profissional Linha Anticaida Premium.jpeg"
     },
     {
       "hash": "sha256-t7qXLySd7mGCwC680MsSLzkoJeD5YGaUipTtW0YAhUc=",
-      "url": "imagens/Dona Flora Máscara Capilar Afro.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Afro.jpeg"
     },
     {
       "hash": "sha256-aoqnIelu/9oijnaE882hAOVDnri6/1jQmYHy860Owwo=",
-      "url": "imagens/Dona Flora Máscara Capilar Anti-Queda Gengibre & Canela & Rosmaninho.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Anti-Queda Gengibre & Canela & Rosmaninho.jpeg"
     },
     {
       "hash": "sha256-//WfAYXIgq18+n/Y2rHytQaqNXp2GeMso9OOeaCTYAw=",
-      "url": "imagens/Dona Flora Máscara Capilar Densidade Biotina & Castanha India.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Densidade Biotina & Castanha India.jpeg"
     },
     {
       "hash": "sha256-DqI8R9adBJ+07eyAL2r7y/i0WLluG8LaNm5md9SNGUc=",
-      "url": "imagens/Dona Flora Máscara Capilar Estimulante Gengibre.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Estimulante Gengibre.jpeg"
     },
     {
       "hash": "sha256-GF/38vm4lh3LP0db8JZ704EXROQpzGCfrGK6/6jHK4o=",
-      "url": "imagens/Dona Flora Máscara Capilar Fortificante Soja.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Fortificante Soja.jpeg"
     },
     {
       "hash": "sha256-GIGVSrw63s9TNnZUwMHShFd+wip3L3c/iIynYq53mF4=",
-      "url": "imagens/Dona Flora Máscara Capilar Frizados Coco & Ricino.jpeg"
-    },
-    {
-      "hash": "sha256-aMZYayAL+GuSSa43gUfKP2I4lQgC1YVsSkjveqQJ/w4=",
-      "url": "imagens/Dona Flora Máscara Capilar Hidratante Abacate & Argão.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Frizados Coco & Ricino.jpeg"
     },
     {
       "hash": "sha256-VUhnEBS0eHDUCTH9a7i8pQwC3cjaXopUtR7OmLngWGM=",
-      "url": "imagens/Dona Flora Máscara Capilar Hidratação Anti-Frizz.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Hidratacao Anti-Frizz.jpeg"
+    },
+    {
+      "hash": "sha256-aMZYayAL+GuSSa43gUfKP2I4lQgC1YVsSkjveqQJ/w4=",
+      "url": "imagens/Dona Flora Mascara Capilar Hidratante Abacate & Argao.jpeg"
     },
     {
       "hash": "sha256-9rJeSSRDAANrJrqkn0PD1atLGGBlj85z005G+qiMEes=",
-      "url": "imagens/Dona Flora Máscara Capilar Lisos Argão.jpeg"
-    },
-    {
-      "hash": "sha256-QZYkb2AESbmvNTqQzjO1LA6ngaGts/u/1kRALF2OYDQ=",
-      "url": "imagens/Dona Flora Máscara Capilar Nutritiva Coco & Argão.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Lisos Argao.jpeg"
     },
     {
       "hash": "sha256-jhQVea574roaONBBx4ebyV8AR38F1JbWMgSdsca4hpQ=",
-      "url": "imagens/Dona Flora Máscara Capilar Nutrição Vegan.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Nutricao Vegan.jpeg"
+    },
+    {
+      "hash": "sha256-QZYkb2AESbmvNTqQzjO1LA6ngaGts/u/1kRALF2OYDQ=",
+      "url": "imagens/Dona Flora Mascara Capilar Nutritiva Coco & Argao.jpeg"
     },
     {
       "hash": "sha256-RZ4UTYZwIIKlH1huwm8xe/P1kxm1DNhvSfxzESpzC3s=",
-      "url": "imagens/Dona Flora Máscara Capilar Platino Trigo.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Platino Trigo.jpeg"
     },
     {
       "hash": "sha256-CX/014R08yRPNQ9YylwWrVqYph1hN8NT5tNO6hzPwoM=",
-      "url": "imagens/Dona Flora Máscara Capilar Pós-Alisado.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Pos-Alisado.jpeg"
     },
     {
       "hash": "sha256-poJqJN205E9wXydduYOJHZcinhCJchO0ohN0wTFaXEo=",
-      "url": "imagens/Dona Flora Máscara Capilar Pós-Química Queratina.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Pos-Quimica Queratina.jpeg"
     },
     {
       "hash": "sha256-0UdQPAY3VJQqe2RXge0J/zp3TWjvS7z/r/Oj62LixBE=",
-      "url": "imagens/Dona Flora Máscara Capilar Reparadora Alho.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Reparadora Alho.jpeg"
     },
     {
       "hash": "sha256-b5xi4gurcpHuY5smZQ5xKdqQhYVE3lGy8jw6qybyGzo=",
-      "url": "imagens/Dona Flora Máscara Capilar Revitalizante Cebola & Bambu.jpeg"
+      "url": "imagens/Dona Flora Mascara Capilar Revitalizante Cebola & Bambu.jpeg"
     },
     {
       "hash": "sha256-YaohldP4P+VltS2+S0c7EMT3VWg4V9QcCurc+1QWm8s=",
@@ -723,43 +715,43 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-vsvGw/qAVT/iW8RyUsvhXYwpTH9meUy5lplC6hwF4zA=",
-      "url": "imagens/Dona Flora Shampoo Hidratante Abacate & Argão.jpeg"
+      "url": "imagens/Dona Flora Shampoo Hidratante Abacate & Argao.jpeg"
     },
     {
       "hash": "sha256-llVLFsNj02JPogvpAWlTKplp4yvEApQC6rixTQiX/Y4=",
-      "url": "imagens/Dona Flora Shampoo Lisos Argão & Macadâmia & Queratina.jpeg"
+      "url": "imagens/Dona Flora Shampoo Lisos Argao & Macadamia & Queratina.jpeg"
     },
     {
       "hash": "sha256-LV80W9v5Tu/AIwYlCHsqKutan3iTM4bfK0cLv4KjF6c=",
-      "url": "imagens/Dona Flora Shampoo Lisos Argão.jpeg"
+      "url": "imagens/Dona Flora Shampoo Lisos Argao.jpeg"
     },
     {
       "hash": "sha256-J/hZ++jzR2LquFqGXCKdObSJdqOnXCCeZ6sfVRK1jqU=",
       "url": "imagens/Dona Flora Shampoo Neutro Trigo & Coco.jpeg"
     },
     {
-      "hash": "sha256-YbQs/HE4Bz8TO5AMyCKTfVS0eiX3Os0XJG9IRM/Is8w=",
-      "url": "imagens/Dona Flora Shampoo Nutritivo Coco & Argão.jpeg"
+      "hash": "sha256-ZY51Xi8vtpEse/dmmnfaZ6Ye9YkI8dauIqJieY02/c8=",
+      "url": "imagens/Dona Flora Shampoo Nutricao Vegan.jpeg"
     },
     {
-      "hash": "sha256-ZY51Xi8vtpEse/dmmnfaZ6Ye9YkI8dauIqJieY02/c8=",
-      "url": "imagens/Dona Flora Shampoo Nutrição Vegan.jpeg"
+      "hash": "sha256-YbQs/HE4Bz8TO5AMyCKTfVS0eiX3Os0XJG9IRM/Is8w=",
+      "url": "imagens/Dona Flora Shampoo Nutritivo Coco & Argao.jpeg"
     },
     {
       "hash": "sha256-Lt3M01nyGQCyuO8cv2AF3nWpgvUqZ2ivhzA+4wFeDLY=",
       "url": "imagens/Dona Flora Shampoo Platino Trigo.jpeg"
     },
     {
-      "hash": "sha256-kSq9bRAXpTxkIzBStOM2SCgTGpPuuUbPH1YhQCXv+Qo=",
-      "url": "imagens/Dona Flora Shampoo Profissional Hidratação.jpeg"
+      "hash": "sha256-WvD69cnE0Zd0xq9OI4uDUeoMZO1P1bKFofUPD0awrGc=",
+      "url": "imagens/Dona Flora Shampoo Pos-Quimica.jpeg"
     },
     {
-      "hash": "sha256-WvD69cnE0Zd0xq9OI4uDUeoMZO1P1bKFofUPD0awrGc=",
-      "url": "imagens/Dona Flora Shampoo Pós-Química.jpeg"
+      "hash": "sha256-kSq9bRAXpTxkIzBStOM2SCgTGpPuuUbPH1YhQCXv+Qo=",
+      "url": "imagens/Dona Flora Shampoo Profissional Hidratacao.jpeg"
     },
     {
       "hash": "sha256-+lOf+/5Y6qLnm+JxbvnqzIQvO7AeRrZysanHeGDkn3w=",
-      "url": "imagens/Dona Flora Shampoo Reaparação Anti-Frizz.jpeg"
+      "url": "imagens/Dona Flora Shampoo Reaparacao Anti-Frizz.jpeg"
     },
     {
       "hash": "sha256-o6J26InQ2u923AA0L9kEyuZaopL2eoq1tioO5NIsq/o=",
@@ -771,43 +763,47 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-UmZMskZvuq2UP72gFBEcIPMpm/Mh1a232YidCCR36O4=",
-      "url": "imagens/Dona Flora Tónico Capilar Crescimento.jpeg"
+      "url": "imagens/Dona Flora Tonico Capilar Crescimento.jpeg"
     },
     {
       "hash": "sha256-HussZGdxfXQMrvaB9ZqpWjmwz+UwIuPBqYH1y/SG7FY=",
-      "url": "imagens/Electric Massage creme Olhos Firmeza Inchaço.jpeg"
+      "url": "imagens/Electric Massage creme Olhos Firmeza Inchaco.jpeg"
     },
     {
       "hash": "sha256-viZ7sfRjhgMFZOyYwG91RgfEx+CbCQ6S/uwXhM20DC8=",
-      "url": "imagens/Escova Limpeza Facial Sónica Azul.jpeg"
+      "url": "imagens/Escova Limpeza Facial Sonica Azul.jpeg"
     },
     {
       "hash": "sha256-ZXJpcLxLUtD1FS8z0gtgHaEZcwE4QO2wQB1HNRW4moQ=",
-      "url": "imagens/Escova Limpeza Facial Sónica Rosa.jpeg"
+      "url": "imagens/Escova Limpeza Facial Sonica Rosa.jpeg"
     },
     {
       "hash": "sha256-XTsHVaGDLRmaasI2+4QNnmVGWcrcAy/pcxzskMKq1gI=",
-      "url": "imagens/Escova Mágica.jpeg"
+      "url": "imagens/Escova Magica.jpeg"
+    },
+    {
+      "hash": "sha256-6jnB1+Q9A3I5TfAPm5o3a463KKGhtMawoT7sggb68xI=",
+      "url": "imagens/Formula Natural de Gengibre - Tudo em Um.jpeg"
     },
     {
       "hash": "sha256-MC46r8enR4U2Ukvpo5Rhtd9k5Bk04BZrkddafIG5fAo=",
-      "url": "imagens/Fruit Company Ambientador Armário Algodão Doce.jpeg"
+      "url": "imagens/Fruit Company Ambientador Armario Algodao Doce.jpeg"
     },
     {
       "hash": "sha256-OWyA0252+fhP4aPD4DTbhBrNHL0oZmE8W4H/P6vkaVY=",
-      "url": "imagens/Fruit Company Ambientador Armário Chupa-Chups.jpeg"
+      "url": "imagens/Fruit Company Ambientador Armario Chupa-Chups.jpeg"
     },
     {
       "hash": "sha256-ackf51/KeVPeyuMDmTGlgRMlx8oZQA3pCVHvSKAKCnI=",
-      "url": "imagens/Fruit Company Ambientador Armário Gomas.jpeg"
+      "url": "imagens/Fruit Company Ambientador Armario Gomas.jpeg"
     },
     {
       "hash": "sha256-nZQW+8J7jlX/Rb2J2CezyrElk0C72BvRWj5jlLcMgRk=",
-      "url": "imagens/Fruit Company Ambientador Armário Marshmallow.jpeg"
+      "url": "imagens/Fruit Company Ambientador Armario Marshmallow.jpeg"
     },
     {
       "hash": "sha256-IjL3ayijmAZxrZZXpWlmupcIvd2IHUX8r1EKA6LIFfY=",
-      "url": "imagens/Fruit Company Ambientador Armário Marshmello Morango.jpeg"
+      "url": "imagens/Fruit Company Ambientador Armario Marshmello Morango.jpeg"
     },
     {
       "hash": "sha256-v05v9SnaZkYFrTCKBlYzplmabrJpOce2Ka7bBOdII1g=",
@@ -826,12 +822,12 @@ self.assetsManifest = {
       "url": "imagens/Fruit Company Ambientador Auto Coco.jpeg"
     },
     {
-      "hash": "sha256-0J5cskiWxjh2oMFyyYiZNXwiL68La4yQEl6rvkt3hCc=",
-      "url": "imagens/Fruit Company Ambientador Auto Manga.jpeg"
+      "hash": "sha256-Mn5JD6kHuPauVMSNdjCfESlns6qixmu6YKku45OwB1Q=",
+      "url": "imagens/Fruit Company Ambientador Auto Maca Verde.jpeg"
     },
     {
-      "hash": "sha256-Mn5JD6kHuPauVMSNdjCfESlns6qixmu6YKku45OwB1Q=",
-      "url": "imagens/Fruit Company Ambientador Auto Maçã Verde.jpeg"
+      "hash": "sha256-0J5cskiWxjh2oMFyyYiZNXwiL68La4yQEl6rvkt3hCc=",
+      "url": "imagens/Fruit Company Ambientador Auto Manga.jpeg"
     },
     {
       "hash": "sha256-PzLJSf5p3MgdMKLXQGaOy1yDthTaKaHDdX44x6bylR0=",
@@ -839,7 +835,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-nYZ6WDAKhVcqe3tNbQk/oq09FlbzoL1TyO6+4W26uqo=",
-      "url": "imagens/Fruit Company Ambientador Auto Melão.jpeg"
+      "url": "imagens/Fruit Company Ambientador Auto Melao.jpeg"
     },
     {
       "hash": "sha256-0t8X30jRVn5G6UUS/WDEIQn5pdNje+MOgaz/FU6Sv8o=",
@@ -863,11 +859,11 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-4sPmtMLtkEiL7vSXQ2fiICChGZ7ItR44obDvaXR9ZzI=",
-      "url": "imagens/Fruit Company Ambientador Micado Maçã Verde.jpeg"
+      "url": "imagens/Fruit Company Ambientador Micado Maca Verde.jpeg"
     },
     {
       "hash": "sha256-Jl4cIaTqXqkqNZFre0VVJruoiyAmDKPLOV1nkJQVHw0=",
-      "url": "imagens/Fruit Company Ambientador Micado Melã.jpeg"
+      "url": "imagens/Fruit Company Ambientador Micado Melao.jpeg"
     },
     {
       "hash": "sha256-I4MIo3ZevK+3aKmVr4px8Jy58h5Gt8zx2I+XlqfSwXM=",
@@ -875,7 +871,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-lQN4a7bkgNCshGeKVigENNa6RvrJgMya3aXuOsgJDmY=",
-      "url": "imagens/Fruit Company Ambientador Micado Pêssego.jpeg"
+      "url": "imagens/Fruit Company Ambientador Micado Pessego.jpeg"
     },
     {
       "hash": "sha256-e4XEQmAv1dRfjrICTCWXuH/M4O9/vxqAZ46Xor08fdg=",
@@ -899,7 +895,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-e+uHFzP+zqMNF45kSz9ibt+oHd40HeOwBJrXvtavAOw=",
-      "url": "imagens/Fruit Company Ambientador Spray Melão.jpeg"
+      "url": "imagens/Fruit Company Ambientador Spray Melao.jpeg"
     },
     {
       "hash": "sha256-/Jn5Dr38oTw4rqzipBZQUTb6MTDyOh5ES0f4NDosqEk=",
@@ -911,19 +907,59 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-FrDDN4+5i3tcLaAOxPa5B6qcAWDmH+2Jn9XdXEI36jw=",
-      "url": "imagens/Fruit Company Ambientador Spray Rebuçados & Doces.jpeg"
+      "url": "imagens/Fruit Company Ambientador Spray Rebucados & Doces.jpeg"
     },
     {
       "hash": "sha256-bcC4XWPbLfgPGVdwFwi0OfwYdO3I5+uHCdn1kU9t0TE=",
-      "url": "imagens/Fruit Company Máscara Labial Abacate.jpeg"
+      "url": "imagens/Fruit Company Mascara Labial Abacate.jpeg"
     },
     {
       "hash": "sha256-4Pp4BhtX6VCPW6NBXGM2TY4IVH0fLdiXRrO+C0TdjnQ=",
-      "url": "imagens/Fruit Company Máscara Labial Tropical.jpeg"
+      "url": "imagens/Fruit Company Mascara Labial Tropical.jpeg"
     },
     {
       "hash": "sha256-tLDGatdfXeFByD99dz56/TWtlU5q/aA4NGRhIZhaDh0=",
-      "url": "imagens/Fruit Company Máscara Labial Uva.jpeg"
+      "url": "imagens/Fruit Company Mascara Labial Uva.jpeg"
+    },
+    {
+      "hash": "sha256-Imlib/PuNPJRdp7yujhtmNVr4kNNTLkWbBAQo2q7+wE=",
+      "url": "imagens/Fruit Company Oleo Labial Abacate.jpeg"
+    },
+    {
+      "hash": "sha256-Lu4aqbhOvtKnpAeSJHCNXXVJYTP1eHgEeuiy/87ewTk=",
+      "url": "imagens/Fruit Company Oleo Labial Amora.jpeg"
+    },
+    {
+      "hash": "sha256-0sjgY+FxIBA7lYjUehZLmqjdWBew6cApww1DLVb3O3o=",
+      "url": "imagens/Fruit Company Oleo Labial Melancia.jpeg"
+    },
+    {
+      "hash": "sha256-LgmJzLHvZqX3rBjPDaOGATJNF8V3OoyXJnFlSSCwMEg=",
+      "url": "imagens/Fruit Company Oleo Labial Morango & Nata.jpeg"
+    },
+    {
+      "hash": "sha256-VrM4cg2SRwi2ZxmjH0a3z7JWlGQThzKg8/4Cody0ml0=",
+      "url": "imagens/Fruit Company Oleo Labial Pessego.jpeg"
+    },
+    {
+      "hash": "sha256-2JtK0HD/m8mu2G3KIZY2+aLj9dDAfMol3Fs+m8HQr1U=",
+      "url": "imagens/Fruit Company Oleo Seco Corporal Anti-Estrias Coxas.jpeg"
+    },
+    {
+      "hash": "sha256-PI+c+dKGbw1HMbmpKVKSp5G2qp+xOzBHJmaeVClEAqI=",
+      "url": "imagens/Fruit Company Oleo Seco Corporal Coco.jpeg"
+    },
+    {
+      "hash": "sha256-7YUN0iqeViHJOx1ldu87niv7bbGxodVf0m5jkva7Hig=",
+      "url": "imagens/Fruit Company Oleo Seco Corporal Monoi.jpeg"
+    },
+    {
+      "hash": "sha256-tM/21ykOXvP0DocCGLdcXepSvaliWxNb+MUiA0TNiQM=",
+      "url": "imagens/Fruit Company Oleo Seco Corporal Morango & Nata.jpeg"
+    },
+    {
+      "hash": "sha256-6SurrrPNHpS0ALUe+dj/DqA1J7YIXxwX3bhRRrgOb8s=",
+      "url": "imagens/Fruit Company Oleo Seco Corporal Tropical.jpeg"
     },
     {
       "hash": "sha256-StbTa+cZpZadW3t3y6UoYZXMIq82q4/Zn/GEyX0hLk4=",
@@ -939,75 +975,31 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-vR1B3otmWeKWdC4YOQK48IIUsZRYVTvAYgRYCx2JMA0=",
-      "url": "imagens/Fruit Company Toalhitas WC Maçã.jpeg"
+      "url": "imagens/Fruit Company Toalhitas WC Maca.jpeg"
     },
     {
       "hash": "sha256-WK7MkvaoopuBZgL9sz0se+J0dBDalB2qVBrhByd2KhY=",
-      "url": "imagens/Fruit Company Toalhitas WC Pêssego.jpeg"
+      "url": "imagens/Fruit Company Toalhitas WC Pessego.jpeg"
     },
     {
       "hash": "sha256-vVES9/Y31uIPTg60tAkrMYjRpLcbkrFwSWoyLcHg3C8=",
-      "url": "imagens/Fruit Company creme Mãos Coco.jpeg"
+      "url": "imagens/Fruit Company creme Maos Coco.jpeg"
     },
     {
       "hash": "sha256-NMomrqvU4kHjnPJBtSF+g2zYm+5uyZKf4KBhi7sUOFM=",
-      "url": "imagens/Fruit Company creme Mãos Maçã Verde.jpeg"
+      "url": "imagens/Fruit Company creme Maos Maca Verde.jpeg"
     },
     {
       "hash": "sha256-Kkz01gRCbbthMDSGysJyAKMMa2kPNYXYyY8QmsaX0K0=",
-      "url": "imagens/Fruit Company creme Mãos Melão.jpeg"
+      "url": "imagens/Fruit Company creme Maos Melao.jpeg"
     },
     {
       "hash": "sha256-j1rtcBIIE+VMn/lPbne5QDCzVynaTZUn+NZrcSC/9uc=",
-      "url": "imagens/Fruit Company creme Mãos Morango & Nata.jpeg"
-    },
-    {
-      "hash": "sha256-Imlib/PuNPJRdp7yujhtmNVr4kNNTLkWbBAQo2q7+wE=",
-      "url": "imagens/Fruit Company Óleo Labial Abacate.jpeg"
-    },
-    {
-      "hash": "sha256-Lu4aqbhOvtKnpAeSJHCNXXVJYTP1eHgEeuiy/87ewTk=",
-      "url": "imagens/Fruit Company Óleo Labial Amora.jpeg"
-    },
-    {
-      "hash": "sha256-0sjgY+FxIBA7lYjUehZLmqjdWBew6cApww1DLVb3O3o=",
-      "url": "imagens/Fruit Company Óleo Labial Melancia.jpeg"
-    },
-    {
-      "hash": "sha256-LgmJzLHvZqX3rBjPDaOGATJNF8V3OoyXJnFlSSCwMEg=",
-      "url": "imagens/Fruit Company Óleo Labial Morango & Nata.jpeg"
-    },
-    {
-      "hash": "sha256-VrM4cg2SRwi2ZxmjH0a3z7JWlGQThzKg8/4Cody0ml0=",
-      "url": "imagens/Fruit Company Óleo Labial Pêssego.jpeg"
-    },
-    {
-      "hash": "sha256-2JtK0HD/m8mu2G3KIZY2+aLj9dDAfMol3Fs+m8HQr1U=",
-      "url": "imagens/Fruit Company Óleo Seco Corporal Anti-Estrias Coxas.jpeg"
-    },
-    {
-      "hash": "sha256-PI+c+dKGbw1HMbmpKVKSp5G2qp+xOzBHJmaeVClEAqI=",
-      "url": "imagens/Fruit Company Óleo Seco Corporal Coco.jpeg"
-    },
-    {
-      "hash": "sha256-7YUN0iqeViHJOx1ldu87niv7bbGxodVf0m5jkva7Hig=",
-      "url": "imagens/Fruit Company Óleo Seco Corporal Monoi.jpeg"
-    },
-    {
-      "hash": "sha256-tM/21ykOXvP0DocCGLdcXepSvaliWxNb+MUiA0TNiQM=",
-      "url": "imagens/Fruit Company Óleo Seco Corporal Morango & Nata.jpeg"
-    },
-    {
-      "hash": "sha256-6SurrrPNHpS0ALUe+dj/DqA1J7YIXxwX3bhRRrgOb8s=",
-      "url": "imagens/Fruit Company Óleo Seco Corporal Tropical.jpeg"
+      "url": "imagens/Fruit Company creme Maos Morango & Nata.jpeg"
     },
     {
       "hash": "sha256-ijE8NEU38RbRxJ+lgH2SVc3G7oeEPo3XgVuZJNvup7A=",
       "url": "imagens/Fruit of the Wokali Professional Care.jpeg"
-    },
-    {
-      "hash": "sha256-6jnB1+Q9A3I5TfAPm5o3a463KKGhtMawoT7sggb68xI=",
-      "url": "imagens/Fórmula Natural de Gengibre - Tudo em Um.jpeg"
     },
     {
       "hash": "sha256-pSNIHq+ZRh2nbohER/VJMCRAqb8E0jfiM1RgzUMoVO0=",
@@ -1015,7 +1007,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-hhZ3zu3G7xxWbQ7P5xzKTHUF+TuttDKGPVSX2rzfwvA=",
-      "url": "imagens/Kiss Beauty Máscara Dourada Removível Kojico & Cúrcuma.jpeg"
+      "url": "imagens/Kiss Beauty Mascara Dourada Removivel Kojico & Curcuma.jpeg"
     },
     {
       "hash": "sha256-pxJYYeXEcWuShprDbJ5xibnNOSLBwkAQrZwp20iA8GM=",
@@ -1091,31 +1083,11 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-g0Lz6l75Zsy8rKGs3hE3/yFk8HvhZmK3SM0T72REZBM=",
-      "url": "imagens/Madeca creme Regeneração Rejuvenescimento.jpeg"
+      "url": "imagens/Madeca creme Regeneracao Rejuvenescimento.jpeg"
     },
     {
-      "hash": "sha256-NP1/V9N7I64kQGYQ4sZjIJiOtTl6d0NZDmhLC61GPxo=",
-      "url": "imagens/Malizia Bagnoschiuma  Crema di Latte - Nr ARNS A.jpeg"
-    },
-    {
-      "hash": "sha256-vMBu/gvlveOHQ1sp7DUWBZFxvtMk0kF4TuCLq1qjcuc=",
-      "url": "imagens/Malizia Bagnoschiuma Crema di Latte e Miele con Es.jpeg"
-    },
-    {
-      "hash": "sha256-gQFnlqyx9ZR7BxzJTdNhfhyazNugCr+WXRM6yMBc1TQ=",
-      "url": "imagens/Malizia Bagnoschiuma Espuma de Banho - Argan e Bau.jpeg"
-    },
-    {
-      "hash": "sha256-BoIP4/wnWds9r2dSuzHmYMB0pZd3nx/Ft/690MVAgRQ=",
-      "url": "imagens/Malizia Bagnoschiuma Espuma de Banho - Leite de Co.jpeg"
-    },
-    {
-      "hash": "sha256-nDpDY2qtdS/KWoN1x+n9F8hj1bgo5z3j2q0fbM3guEc=",
-      "url": "imagens/Malizia Bagnoschiuma Espuma de Banho Relaxante.jpeg"
-    },
-    {
-      "hash": "sha256-Lph1i5I+3X3HEswYKiCASgiaWyOlfTW09wv/RFX/bPc=",
-      "url": "imagens/Malizia Bagnoschiuma Espuma de Banho Revitalizante.jpeg"
+      "hash": "sha256-9X+RMPs50U0uw1aSP1zthLDiD+YAn/JRcwoFaiVtJ60=",
+      "url": "imagens/Malizia Espuma Banho Almiscar Branco.jpeg"
     },
     {
       "hash": "sha256-yfAAxhFLTbpTkDbFTjlVO5uEt9JDD5Bn654ocyAe318=",
@@ -1127,7 +1099,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-gQFnlqyx9ZR7BxzJTdNhfhyazNugCr+WXRM6yMBc1TQ=",
-      "url": "imagens/Malizia Espuma Banho Argão & Baunilha.jpeg"
+      "url": "imagens/Malizia Espuma Banho Argao & Baunilha.jpeg"
     },
     {
       "hash": "sha256-Lph1i5I+3X3HEswYKiCASgiaWyOlfTW09wv/RFX/bPc=",
@@ -1135,7 +1107,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-7/bNVGFRYlioc4PAzYonhe4JZRiODQ64v1O0qdYQjP4=",
-      "url": "imagens/Malizia Espuma Banho Chá Verde & Pinho.jpeg"
+      "url": "imagens/Malizia Espuma Banho Cha Verde & Pinho.jpeg"
     },
     {
       "hash": "sha256-NP1/V9N7I64kQGYQ4sZjIJiOtTl6d0NZDmhLC61GPxo=",
@@ -1155,7 +1127,15 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-mam6Vr1rNmnD4C0yJoYD02Q5OVGKLwctKq6kjIqWvNI=",
-      "url": "imagens/Malizia Espuma Banho Monoi & Flor Lótus.jpeg"
+      "url": "imagens/Malizia Espuma Banho Monoi & Flor Lotus.jpeg"
+    },
+    {
+      "hash": "sha256-C0ixFMDlJYv0VGnAzesh/CugT4CDAXQ04vslGY3xiUI=",
+      "url": "imagens/Malizia Espuma Banho Orquidea & Ambar.jpeg"
+    },
+    {
+      "hash": "sha256-nDpDY2qtdS/KWoN1x+n9F8hj1bgo5z3j2q0fbM3guEc=",
+      "url": "imagens/Malizia Espuma Banho Petalas de Iris.jpeg"
     },
     {
       "hash": "sha256-Tc8f1OhE/iA/CRmQxN73MAIX8EI+yNNv9UZRxGSIlYk=",
@@ -1166,20 +1146,20 @@ self.assetsManifest = {
       "url": "imagens/Malizia Espuma de Banho Bio Aloe e Magnolia - 1 Li.jpeg"
     },
     {
-      "hash": "sha256-9X+RMPs50U0uw1aSP1zthLDiD+YAn/JRcwoFaiVtJ60=",
-      "url": "imagens/Malizia EspumaBanho Almiscar Branco.jpeg"
+      "hash": "sha256-Sdn9+X3A+pnL8xGg0J+ZXoB/UDhRDZZz+lyd29zgaoM=",
+      "url": "imagens/Mascara Capilar Colageno po macaroot.jpeg"
     },
     {
-      "hash": "sha256-C0ixFMDlJYv0VGnAzesh/CugT4CDAXQ04vslGY3xiUI=",
-      "url": "imagens/Malizia EspumaBanho Orquídea & Ambar.jpeg"
+      "hash": "sha256-b5xi4gurcpHuY5smZQ5xKdqQhYVE3lGy8jw6qybyGzo=",
+      "url": "imagens/Mascara Capilar Profissional.jpeg"
     },
     {
-      "hash": "sha256-nDpDY2qtdS/KWoN1x+n9F8hj1bgo5z3j2q0fbM3guEc=",
-      "url": "imagens/Malizia EspumaBanho Pétalas de Iris.jpeg"
+      "hash": "sha256-sblLC0RLJevPXBT7G5YDp0UtEm2n5eRoSECFrwBYZhM=",
+      "url": "imagens/Mascara Capilar Roxa po de Macaroot.jpeg"
     },
     {
       "hash": "sha256-WgaGZ5RrtQXcSGbM76Vq6sDYFp2z0Ynh9/UysIzT5g8=",
-      "url": "imagens/Medicube Bálsamo Labial Volume.jpeg"
+      "url": "imagens/Medicube Balsamo Labial Volume.jpeg"
     },
     {
       "hash": "sha256-Z3B5h9vWBf8iML2N5tyVLvlZmq2ubY5cL2ImvEpW6rQ=",
@@ -1191,7 +1171,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-FRzh6dEukwsmhkq3AQD7D9urqmVjstG2eRZs80gMXuw=",
-      "url": "imagens/Medicube Creme Vitamina C Hidratação Firmeza.jpeg"
+      "url": "imagens/Medicube Creme Vitamina C Hidratacao Firmeza.jpeg"
     },
     {
       "hash": "sha256-mOAvM4qZ0kJ7DckBYK9VV3txVdQOrOLxHGePJJGt7wo=",
@@ -1203,7 +1183,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-6xFnzc8Sh4qale9UNEfdbCF4Y6eZ+vf1UFEyv+Vf4Xw=",
-      "url": "imagens/Medicube Máscara Facial Nocturna Colágeno.jpeg"
+      "url": "imagens/Medicube Mascara Facial Nocturna Colageno.jpeg"
     },
     {
       "hash": "sha256-2IgupzGo78lPdYJwh/f805ckp6X5Z2B/6rshnt5O0AA=",
@@ -1214,24 +1194,24 @@ self.assetsManifest = {
       "url": "imagens/Medicube Patch Olhos PDRN Pink Caffeine.jpeg"
     },
     {
+      "hash": "sha256-IykM6aDqjWb2LFTCDuFJeFsldzkXLtlagHtVoeUbGO4=",
+      "url": "imagens/Medicube Serum Capsulas Vitamina C.jpeg"
+    },
+    {
       "hash": "sha256-y8U8eBlJ9Wy2Nak7VEe2cariFvWGBp8jQVnKK9br+qQ=",
-      "url": "imagens/Medicube Serum Colágeno & NAD & EGF.jpeg"
+      "url": "imagens/Medicube Serum Colageno & NAD & EGF.jpeg"
     },
     {
       "hash": "sha256-sA8ZpWQSPWz2RO6SC8A2lt4BNyqWi4tBko8gUQz1puw=",
-      "url": "imagens/Medicube Serum Colágeno Glow Booster.jpeg"
+      "url": "imagens/Medicube Serum Colageno Glow Booster.jpeg"
     },
     {
       "hash": "sha256-0U/qZLwwg31I0f6oUfMtCiYM6OBVC4b2OQAfL5xsYsk=",
       "url": "imagens/Medicube Serum Couro Cabeludo Refrescante.jpeg"
     },
     {
-      "hash": "sha256-IykM6aDqjWb2LFTCDuFJeFsldzkXLtlagHtVoeUbGO4=",
-      "url": "imagens/Medicube Serum Cápsulas Vitamina C.jpeg"
-    },
-    {
       "hash": "sha256-SqmCxtx6lB0x48kKkniM9yqzlyERe74uTtypj5Zpt4o=",
-      "url": "imagens/Medicube Serum Manjericão Sagrado Irritação da Pele.jpeg"
+      "url": "imagens/Medicube Serum Manjericao Sagrado Irritacao da Pele.jpeg"
     },
     {
       "hash": "sha256-8dYvgDAt/WSar23HNaS8gP3oki2oJAnUjxOQtejWOto=",
@@ -1250,6 +1230,10 @@ self.assetsManifest = {
       "url": "imagens/Medicube Shampoo Rosemary PDRN.jpeg"
     },
     {
+      "hash": "sha256-Vgy5txC2KYB1JbsmhpO6tXtpu1JC5EdmEE5ILzgOKC0=",
+      "url": "imagens/Medicube creme Acido Hialuronico Hidratacao.jpeg"
+    },
+    {
       "hash": "sha256-jWs6NSkgZmy6WnK+2swznQroyvzoYEz+o1i5NHITqsI=",
       "url": "imagens/Medicube creme Niacinamida + TXA.jpeg"
     },
@@ -1258,32 +1242,28 @@ self.assetsManifest = {
       "url": "imagens/Medicube creme Olhos & Rosto Lifting Profundo.jpeg"
     },
     {
-      "hash": "sha256-zMboHF4ZnuM5+djcDKpeafMmUMkRBpY7sojBZUmubvI=",
-      "url": "imagens/Medicube creme Pescoço PDRN Colágeno Gua Sha.jpeg"
-    },
-    {
-      "hash": "sha256-Vgy5txC2KYB1JbsmhpO6tXtpu1JC5EdmEE5ILzgOKC0=",
-      "url": "imagens/Medicube creme Ácido Hialurónico Hidratação.jpeg"
-    },
-    {
       "hash": "sha256-3yo8mOFTiL/j/B+ogCPPVnHv75KrpjYR2N1iLkIhA7o=",
-      "url": "imagens/Medicube cremePescoço Anti Rugas Colágeno PDRN Gua Sha.jpeg"
+      "url": "imagens/Medicube creme Pescoco Anti Rugas Colageno PDRN Gua Sha.jpeg"
     },
     {
-      "hash": "sha256-Sdn9+X3A+pnL8xGg0J+ZXoB/UDhRDZZz+lyd29zgaoM=",
-      "url": "imagens/Máscara Capilar Colágeno pó macaroot.jpeg"
-    },
-    {
-      "hash": "sha256-b5xi4gurcpHuY5smZQ5xKdqQhYVE3lGy8jw6qybyGzo=",
-      "url": "imagens/Máscara Capilar Profissional.jpeg"
-    },
-    {
-      "hash": "sha256-sblLC0RLJevPXBT7G5YDp0UtEm2n5eRoSECFrwBYZhM=",
-      "url": "imagens/Máscara Capilar Roxa pó de Macaroot.jpeg"
+      "hash": "sha256-zMboHF4ZnuM5+djcDKpeafMmUMkRBpY7sojBZUmubvI=",
+      "url": "imagens/Medicube creme Pescoco PDRN Colageno Gua Sha.jpeg"
     },
     {
       "hash": "sha256-ysFAtZON+CHmNCw0aYXK79ici/dFYwIvSBdSIBeZA/Y=",
       "url": "imagens/Odonna Leite Corporal Infantil.jpeg"
+    },
+    {
+      "hash": "sha256-Iv+dz0QOh3S/alksy0Y+31Gfc4bXWno4cFQakrv+Zu0=",
+      "url": "imagens/Ofashion Esfoliacao Facial Coco.jpeg"
+    },
+    {
+      "hash": "sha256-ZTBrn15FJ6inBFlIvaxzR5RNBefM0/VP0ZzDI9NG+5E=",
+      "url": "imagens/Ofashion Esfoliacao Facial Framboesa.jpeg"
+    },
+    {
+      "hash": "sha256-4rnngLTfJPA4XKByQVGgVVxbqtq9Kgqqpf1e3CTwvh8=",
+      "url": "imagens/Ofashion Esfoliacao Facial Pepino.jpeg"
     },
     {
       "hash": "sha256-C99H40xtEQ76aRCAyHyHbk0idMgXKHKwVy/44HGWSys=",
@@ -1299,27 +1279,15 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-1RX8IXYKjIdfdPkOWpImGJ1lFzkODzeCzmkR7Tn+SFc=",
-      "url": "imagens/Ofashion Esfoliante Facial Carvão.jpeg"
+      "url": "imagens/Ofashion Esfoliante Facial Carvao.jpeg"
     },
     {
       "hash": "sha256-pdmzjk/zPVX7a1oNioB7jjagy5Maz2TwKO6ynezzhZM=",
-      "url": "imagens/Ofashion Esfoliante Facial Limão.jpeg"
+      "url": "imagens/Ofashion Esfoliante Facial Limao.jpeg"
     },
     {
       "hash": "sha256-FvdWjLsFbwfG8NIY/MDwFRQije+UgBss1TCL/mb/XnI=",
       "url": "imagens/Ofashion Esfoliante Facial Morango.jpeg"
-    },
-    {
-      "hash": "sha256-Iv+dz0QOh3S/alksy0Y+31Gfc4bXWno4cFQakrv+Zu0=",
-      "url": "imagens/Ofashion Esfoliação Facial Coco.jpeg"
-    },
-    {
-      "hash": "sha256-ZTBrn15FJ6inBFlIvaxzR5RNBefM0/VP0ZzDI9NG+5E=",
-      "url": "imagens/Ofashion Esfoliação Facial Framboesa.jpeg"
-    },
-    {
-      "hash": "sha256-4rnngLTfJPA4XKByQVGgVVxbqtq9Kgqqpf1e3CTwvh8=",
-      "url": "imagens/Ofashion Esfoliação Facial Pepino.jpeg"
     },
     {
       "hash": "sha256-PWSxZMhyGOnaCWqcCqiDQpGYoshJTHyx8k1k4IRXFl4=",
@@ -1327,19 +1295,15 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-ihwuDOi0fdGGgcxfSnrd4YxaKJe2/7ywx2phFXphFOU=",
-      "url": "imagens/PDRN Shot Capilar Hidratação.jpeg"
+      "url": "imagens/PDRN Shot Capilar Hidratacao.jpeg"
     },
     {
       "hash": "sha256-YFPwYSTZ0MEZMBLXqoVFaqwNSPLD+vrHrqludr/9AUc=",
       "url": "imagens/PINKY SWEET YUMMY!.jpeg"
     },
     {
-      "hash": "sha256-4oVWz/EkIf4JsZhqQ7AgESFq+42hChKtUvN4BBgLS7g=",
-      "url": "imagens/Perfums PERFUMADOR.jpeg"
-    },
-    {
       "hash": "sha256-pcZA1xmLuw+qZisY6gnT2pKANlpb/6d/IqFVjLB0W7M=",
-      "url": "imagens/Pincel Maquilhagem Alta Definição.jpeg"
+      "url": "imagens/Pincel Maquilhagem Alta Definicao.jpeg"
     },
     {
       "hash": "sha256-f+xs1Ay5Csl36ZrWHBwMsH0kIMpx720oQxHJXK0iyIo=",
@@ -1371,7 +1335,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-Vx6ulxji3Vw1oKsFSDN1rn9GPnG7k2QVE2G4rUJnA3g=",
-      "url": "imagens/Serum Capilar Argão & Alecrim.jpeg"
+      "url": "imagens/Serum Capilar Argao & Alecrim.jpeg"
     },
     {
       "hash": "sha256-WfDEy0NcJeCmUofjE2n8Ro6eEKWNqG+wV40e5XaxSaw=",
@@ -1379,7 +1343,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-fSQdFRakPij9F5RZ4PkmiGewi74m0AMiTmdpJJ0FWM4=",
-      "url": "imagens/Serum Corporal Reafirmante Nádegas.jpeg"
+      "url": "imagens/Serum Corporal Reafirmante Nadegas.jpeg"
     },
     {
       "hash": "sha256-p/QzKGmj0m+IxV6CJxiJmx1nkXXEK2OMy70hTfzFqr0=",
@@ -1414,16 +1378,12 @@ self.assetsManifest = {
       "url": "imagens/Story of Love Fragancia Corporal Rosas.jpeg"
     },
     {
-      "hash": "sha256-86dMLSIUr5Y2QT8q/O44xlLT8wcnoeae9HPeSij2YtI=",
-      "url": "imagens/Story of Love Sobre a Fragrância.jpeg"
-    },
-    {
       "hash": "sha256-hEzolLdLvbPrYCU2fxqJgqUNYshDQNiF6PsKcwL/xFE=",
       "url": "imagens/Story ofLove  Melody Bloom.jpeg"
     },
     {
       "hash": "sha256-yB4bfNmH9kqZMWLkNeqIyIl0TxcFtWvq/iSZiRg9zKA=",
-      "url": "imagens/Tulipan Negro Gel Banho Algodão Doce.jpeg"
+      "url": "imagens/Tulipan Negro Gel Banho Algodao Doce.jpeg"
     },
     {
       "hash": "sha256-+aQtFcfgpodkcbARpWngkfElgODVltHlxjqrrX1egcY=",
@@ -1443,15 +1403,19 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-MeIdrjX3gy4gXlMIROglcYBkeFqTvOKiiMWN0uIEON0=",
-      "url": "imagens/Tulipan Negro Gel Duche Algodão & Talco.jpeg"
+      "url": "imagens/Tulipan Negro Gel Duche Algodao & Talco.jpeg"
     },
     {
       "hash": "sha256-ACqmWcMKtkOx2ym3QUtbvf74tUkiXMU2pnhlDfIo8N8=",
       "url": "imagens/Tulipan Negro Gel Duche Aloe Vera & Jojoba.jpeg"
     },
     {
+      "hash": "sha256-MpwyzzjY+nhOfY1IIi4kPdFnOFem2NuCi5wl1w0CovQ=",
+      "url": "imagens/Tulipan Negro Gel Duche Ambar & Sandalo.jpeg"
+    },
+    {
       "hash": "sha256-q5tk30b4LAPzcer4LXZrlSMCaQNBs5yztqwIE+fvaPQ=",
-      "url": "imagens/Tulipan Negro Gel Duche Baunilha & Macadâmia.jpeg"
+      "url": "imagens/Tulipan Negro Gel Duche Baunilha & Macadamia.jpeg"
     },
     {
       "hash": "sha256-YPWJBeO9nuMYliVvsCAb79h1I/1abatDwFW/bhjXWH8=",
@@ -1467,7 +1431,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-dgHeiqF3wgAHCIlwjBWsToZILa0B1jPbNigT5f1wtxA=",
-      "url": "imagens/Tulipan Negro Gel Duche Caramelo & Café.jpeg"
+      "url": "imagens/Tulipan Negro Gel Duche Caramelo & Cafe.jpeg"
     },
     {
       "hash": "sha256-VY3nziG+SI6uU8rSno33aLiuZrDtpTn6VFwv0SZYJBo=",
@@ -1483,7 +1447,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-DSdkbFat40GOGUb5iEVsSbWO8FuoJYQpZk4dUWnJnfI=",
-      "url": "imagens/Tulipan Negro Gel Duche Creme de Sabão.jpeg"
+      "url": "imagens/Tulipan Negro Gel Duche Creme de Sabao.jpeg"
     },
     {
       "hash": "sha256-SZHriTsTaxR/T9i5ZviDuHXLkYHTlSurAmnGvpnCE/E=",
@@ -1503,7 +1467,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-FtvOP1+5frVUlrzXlbgo66zUGLNUoxxcbgUj2denmho=",
-      "url": "imagens/Tulipan Negro Gel Duche Melão.jpeg"
+      "url": "imagens/Tulipan Negro Gel Duche Melao.jpeg"
     },
     {
       "hash": "sha256-qjEXCPlASf/iWAkzBndiWltUDbyly4GcSqf7Ok19hl0=",
@@ -1530,18 +1494,6 @@ self.assetsManifest = {
       "url": "imagens/Tulipan Negro Gel Duche Violeta.jpeg"
     },
     {
-      "hash": "sha256-MpwyzzjY+nhOfY1IIi4kPdFnOFem2NuCi5wl1w0CovQ=",
-      "url": "imagens/Tulipan Negro Gel Duche Âmbar & Sândalo.jpeg"
-    },
-    {
-      "hash": "sha256-An1SVYcPcjCQdFIO1oybwb5bdcNey4ONOrEdXNP++MA=",
-      "url": "imagens/Tulipán Nesoo.jpeg"
-    },
-    {
-      "hash": "sha256-HQU3ZycVQxyDR48C3vFoyttxx7jc5eFAPK8XNIhR8uo=",
-      "url": "imagens/Título do Produto Base Coreana Mudança de Cor.jpeg"
-    },
-    {
       "hash": "sha256-Dcx3KIFy2CF0Y1etETwh8CwOfNB/OG0wfCiDqxSTqyE=",
       "url": "imagens/Venshadi Paleta Sombras Barbie's Eye!! Butterfly.jpeg"
     },
@@ -1555,19 +1507,19 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-1RmLxB0TnOP04+35dIrcfhLTzAQduv2f48bPX/sAbxo=",
-      "url": "imagens/Veri You Loção Corporal Hidratante Vanilla Crush.jpeg"
+      "url": "imagens/Veri You Locao Corporal Hidratante Vanilla Crush.jpeg"
     },
     {
       "hash": "sha256-tXYvLZM3xYmZhXs48+ZDQFkyBpTkPPvajfmRrij/Kc0=",
-      "url": "imagens/Veri You Loção Hidratante Corporal Chocolate Magic.jpeg"
+      "url": "imagens/Veri You Locao Hidratante Corporal Chocolate Magic.jpeg"
     },
     {
       "hash": "sha256-DbpxIpZIfMP+DhgdCe9L/ao8A9DPZgaorO/BlDNQwY0=",
-      "url": "imagens/Veri You Loção Hidratante Corporal Cookies Burst.jpeg"
+      "url": "imagens/Veri You Locao Hidratante Corporal Cookies Burst.jpeg"
     },
     {
       "hash": "sha256-uFNIzcHrHf0UZGzxI+jY9McV4ipE6uZAvIopHESwQfs=",
-      "url": "imagens/Veri You Loção Nutritiva Corporal Strawberry Creme.jpeg"
+      "url": "imagens/Veri You Locao Nutritiva Corporal Strawberry Creme.jpeg"
     },
     {
       "hash": "sha256-uXP0yq15a7GI2bcHI5vhL5/ejGE4NVsW3W66FfjJFqk=",
@@ -1575,7 +1527,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-DGaUq2UIImiZ7OxyGL0GFa4u3Af45cJc2DtjfBNkZYc=",
-      "url": "imagens/Wins Town Colágeno efeito queimador saquetas.jpeg"
+      "url": "imagens/Wins Town Colageno efeito queimador saquetas.jpeg"
     },
     {
       "hash": "sha256-6jnB1+Q9A3I5TfAPm5o3a463KKGhtMawoT7sggb68xI=",
@@ -1586,7 +1538,7 @@ self.assetsManifest = {
       "url": "imagens/Wokali Shampoo Barra Revitalizante.jpeg"
     },
     {
-      "hash": "sha256-30gzt4aFTSlljBpBUGPoWTSqnj7+xaekvcWK76yUYU8=",
+      "hash": "sha256-449LLG180QKzL6n/YpTEBF7gzu14H822vYyL+RXCMLU=",
       "url": "index.html"
     },
     {
@@ -1770,7 +1722,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-Oy1BVmIhIQWprY2EqxToMdveBiDjgFgn1PksAgiY1k8=",
+      "hash": "sha256-iz44yMDJh2h547FYQ72AbOtZ5AKvuyRJ007n/nKBPCU=",
       "url": "produtos.json"
     },
     {
