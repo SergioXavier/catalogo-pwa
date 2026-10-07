@@ -142,7 +142,7 @@
     {
         "id": 23,
         "nome": "Aura Velas Hibiscus White Sage",
-        "imagem": "imagens/Aura Velas Hibiscus-White sage.jpeg",
+        "imagem": "imagens/Aura Velas Hibiscus White sage.jpeg",
         "preco": 1.75,
         "categoria": 8
     },
@@ -156,7 +156,7 @@
     {
         "id": 25,
         "nome": "Aura Velas Raspberry Lavender",
-        "imagem": "imagens/Aura Velas Raspberry-Lavender.jpeg",
+        "imagem": "imagens/Aura Velas Raspberry Lavender.jpeg",
         "preco": 1.75,
         "categoria": 8
     },
@@ -170,7 +170,7 @@
     {
         "id": 27,
         "nome": "Aura Velas Vanilla Orchid",
-        "imagem": "imagens/Aura Velas Vanilla-Orchid.jpeg",
+        "imagem": "imagens/Aura Velas Vanilla Orchid.jpeg",
         "preco": 1.75,
         "categoria": 8
     },

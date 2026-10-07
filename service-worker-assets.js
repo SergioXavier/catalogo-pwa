@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "F2GTZv00",
+  "version": "6JgC+/N6",
   "assets": [
     {
       "hash": "sha256-dBZ0pksMdx19eEZTy7NWK7qi4DoGyTicj7N5ccM1ij8=",
       "url": "CatalogoPWA.styles.css"
     },
     {
-      "hash": "sha256-Ma7WcGbpiwt9HiVh99X5yJgtaebsg//MwQ1cVlX1GMc=",
-      "url": "_framework/CatalogoPWA.pihylf5gx9.wasm"
+      "hash": "sha256-TMXm9zi1bFmyFrRFul5EKiTXrXyA11awNgJmRW3zWmc=",
+      "url": "_framework/CatalogoPWA.smo4tejmqy.wasm"
     },
     {
       "hash": "sha256-NAZW2dLOTy7qkzu5Vbg7r6Mq/HM++gOY7EQnn9kaBFM=",
@@ -182,12 +182,12 @@ self.assetsManifest = {
       "url": "_framework/dotnet.native.rw4kynp763.wasm"
     },
     {
-      "hash": "sha256-QbnqrZGHtGq7wudS17/AYEPpH9JkphrsyVllD6JHmds=",
-      "url": "_framework/dotnet.runtime.v06hirbjsv.js"
+      "hash": "sha256-ivztuhaqMyX0ykn5NfxWyCj22KShVX4jzT7TjOCy3p0=",
+      "url": "_framework/dotnet.qvg84m60dh.js"
     },
     {
-      "hash": "sha256-44kUnQiJjCf2/qX3pS8Z0gUK8vk1DSxKFSjTj9yh0KI=",
-      "url": "_framework/dotnet.x7s9rdnbzf.js"
+      "hash": "sha256-QbnqrZGHtGq7wudS17/AYEPpH9JkphrsyVllD6JHmds=",
+      "url": "_framework/dotnet.runtime.v06hirbjsv.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -303,7 +303,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-0YN+cQJEVO4FwYwFJWmGYrw6xwDbk2VbvhmmmtDJlD4=",
-      "url": "imagens/Aura Velas Hibiscus-White sage.jpeg"
+      "url": "imagens/Aura Velas Hibiscus White sage.jpeg"
     },
     {
       "hash": "sha256-GoVVv85QEoqM1TnKn4ngwhu3mXfB40qUqR7Ih/FuwVU=",
@@ -311,7 +311,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-HTJ/v/hDADfbONm9TEQ0uavRhu1x3gTkPeLnvlCzy7Q=",
-      "url": "imagens/Aura Velas Raspberry-Lavender.jpeg"
+      "url": "imagens/Aura Velas Raspberry Lavender.jpeg"
     },
     {
       "hash": "sha256-n822R2TLlO/99dTUA2mAh3PxpobMmNKAqPbxl4zxMfE=",
@@ -319,7 +319,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-6xVXMfZHvbwDbsMHk4kedCKWBe5Nk9U2XzWe6Rqi5U4=",
-      "url": "imagens/Aura Velas Vanilla-Orchid.jpeg"
+      "url": "imagens/Aura Velas Vanilla Orchid.jpeg"
     },
     {
       "hash": "sha256-132XoCrryvU3TH5w8F7qC7AtCKz8UI7hRhdZZWiAs+E=",
@@ -1538,7 +1538,7 @@ self.assetsManifest = {
       "url": "imagens/Wokali Shampoo Barra Revitalizante.jpeg"
     },
     {
-      "hash": "sha256-mNCtVYpSXLBHKPYGOKZ23b+rSK0DzdEu8Ar+2S5pmo4=",
+      "hash": "sha256-3amSbj2iygd+SbnVsxqrUa2K6KdYdB+QbOTzSJBhhjo=",
       "url": "index.html"
     },
     {
@@ -1722,7 +1722,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-agdmKmm7m7f4Nf+1zyyYy7V6FU8Fu+hvmt5KbvVQi/4=",
+      "hash": "sha256-Ag1eIIE+WFofmOveK+UhwHYMY95Q8q2yXuvDM50rV4c=",
       "url": "produtos.json"
     },
     {
