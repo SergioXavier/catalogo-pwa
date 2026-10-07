@@ -99,7 +99,7 @@
     },
     {
         "id": 17,
-        "nome": "Anua Heartleaf 70% Creme Hidratação Profunda",
+        "nome": "Anua Heartleaf 70% Creme Hidratacao Profunda",
         "imagem": "imagens/Anua Heartleaf 70% creme Hidratacao Profunda.jpeg",
         "preco": 14.30,
         "categoria": 1
@@ -499,7 +499,7 @@
     {
         "id": 79,
         "nome": "Ddonna Névoa Corporal Frutal Doce Gourmand",
-        "imagem": "imagens/DDonna Nevoa COrporal Frutal Doce Gourmand.jpeg",
+        "imagem": "imagens/DDonna Nevoa Corporal Frutal Doce Gourmand.jpeg",
         "preco": 12.90,
         "categoria": 5
     },
@@ -1038,7 +1038,7 @@
     {
         "id": 157,
         "nome": "Fruit Company Ambientador Micado Melancia",
-        "imagem": "imagens/Fruit Company Ambientador casa Melancia.jpeg",
+        "imagem": "imagens/Fruit Company Ambientador Micado Melancia.jpeg",
         "preco": 8.19,
         "categoria": 8
     },
@@ -2151,7 +2151,7 @@
     {
         "id": 332,
         "nome": "Venshadi Paleta Sombras Reinos Mágicos",
-        "imagem": "imagens/Venshadi Paleta Sombras Reinos Mágicos.jpeg",
+        "imagem": "imagens/Venshadi Paleta Sombras Reinos Magicos.jpeg",
         "preco": 21.19,
         "categoria": 4
     },
